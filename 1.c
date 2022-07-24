@@ -58,6 +58,7 @@ int Validar_Modalidad(char *Modalidad_Venta)
     return 0; 
 }
 
+
 /**
  * @brief 
  * ? Funcion para validar: >| Categoria_Producto |< entre las categorias: 
@@ -114,13 +115,16 @@ struct Node* Filtrar_Modalidad(Node* head)
         //! Segun el tipo de servicio ingresado para filtrar se mostrara los nodos con esa modalidad
         if (strcmp(temp->Modalidad_Venta,Tipo_Servicio) == 0);
         {
-            printf("\n>--------------------------------------<");
+            printf("\n>----------------------------------------<");
+            printf("\n");
             printf("\n|>>>| Categoria Del Producto: > %s < |<<<|",temp->Categoria_Producto);
-            printf("\n|>>>| Nombre Del Producto: > %s <|<<<|",temp->Nombre_Del_Producto);
-            printf("\n|>>>| Fecha De Venta: > %s < |<<<|",temp->Fecha_De_Venta);
-            printf("\n|>>>| Modalidad De Venta: > %s < |<<<|",temp->Modalidad_Venta);
-            printf("\n|>>>| Precio de la venta: > %s < |<<<|",temp->Precio_De_Venta);
-            printf("\n>--------------------------------------<");
+            printf("\n");
+            printf("\n|>>>| Nombre Del Producto:    > %s < |<<<|",temp->Nombre_Del_Producto);
+            printf("\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
+            printf("\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
+            printf("\n|>>>| Precio de la venta:     > %s < |<<<|",temp->Precio_De_Venta);
+            printf("\n");
+            printf("\n>-------------------------------------- <");
             printf("\n");
 
             //! Para pasar a los nodos siguientes
@@ -152,8 +156,165 @@ struct Node* Buscar_Num_Factura(Node* head)
     return head;
 }
 
-int main(int argc, char const *argv[])
+//? Procedimiento para guardar la informacion de las facturas con la modalidad : Online = '0'.
+struct Node* Almacenar_Registros_Online(Node* head)
 {
+    //! Abrimos el txt donde vamos a guardar los registros por modalidad es este caso es : > Online <
+    FILE *File_Open = fopen("Online_Register.txt","a");
+    //! Si el puntero fp es nullo va a imprimir un error: no pudo abrir el archivo.
+    if (File_Open == NULL)
+    {
+        printf("\n|>>>| ERROR AL ABRIR EL ARCHIVO |<<<|");
+        exit(1);
+    }
+    struct Node* temp = head; 
+    //! Modalidad de venta
+    char Online[2] = {'0'};
+    //! Guardamos el registro en: > Online_Register.txt < si cumple con la condicion de ser igual a modalidad Online.
+    while (temp != NULL)
+    {
+        if (strcmp(temp->Modalidad_Venta,Online) == 0)
+        {
+            fprintf(File_Open,"\n>----------------------------------------<");
+            fprintf(File_Open,"\n");
+            fprintf(File_Open,"\n|>>>| Categoria Del Producto: > %s < |<<<|",temp->Categoria_Producto);
+            fprintf(File_Open,"\n");
+            fprintf(File_Open,"\n|>>>| Nombre Del Producto:    > %s < |<<<|",temp->Nombre_Del_Producto);
+            fprintf(File_Open,"\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
+            fprintf(File_Open,"\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
+            fprintf(File_Open,"\n|>>>| Precio de la venta:     > %s < |<<<|",temp->Precio_De_Venta);
+            fprintf(File_Open,"\n");
+            fprintf(File_Open,"\n>-------------------------------------- <");
+            fprintf(File_Open,"\n");
+        }
+        
+        temp = temp->next;
+    }
+    
+    fclose(File_Open);
+}
+
+//? Procedimiento para guardar la informacion de las facturas con la modalidad : Presencial = 'P'.
+struct Node* Almacenar_Registros_Presencial(Node* head)
+{
+    FILE *File_Open = fopen("Presencial_Register.txt","a");
+    if (File_Open == NULL)
+    {
+        printf("\n|>>>| ERROR AL ABRIR EL ARCHIVO |<<<|");
+        exit(2);
+    }
+    struct Node* temp = head;
+    //! Modalidad de venta.
+    char Presencial[2] = {'P'};
+    while (temp != NULL)
+    {
+        if (strcmp(temp->Modalidad_Venta,Presencial) == 0)
+        {
+            fprintf(File_Open,"\n>----------------------------------------<");
+            fprintf(File_Open,"\n");
+            fprintf(File_Open,"\n|>>>| Categoria Del Producto: > %s < |<<<|",temp->Categoria_Producto);
+            fprintf(File_Open,"\n");
+            fprintf(File_Open,"\n|>>>| Nombre Del Producto:    > %s < |<<<|",temp->Nombre_Del_Producto);
+            fprintf(File_Open,"\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
+            fprintf(File_Open,"\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
+            fprintf(File_Open,"\n|>>>| Precio de la venta:     > %s < |<<<|",temp->Precio_De_Venta);
+            fprintf(File_Open,"\n");
+            fprintf(File_Open,"\n>-------------------------------------- <");
+            fprintf(File_Open,"\n");
+        }
+        
+        temp = temp->next;
+    }
+    
+    fclose(File_Open);
+}
+
+//? Funcion para calcular el total de las ventas registradas
+float Total_Ventas_Realizadas(struct Node* head)
+{
+    struct Node* temp = head;
+    float Suma_Ventas;
+    while (temp != NULL)
+    {
+        Suma_Ventas += temp->Precio_De_Venta;
+        temp = temp->next;
+    }
+    
+    return Suma_Ventas;
+}
+
+//? Procedimiento para guardar la informacion de todas las facturas generadas
+struct Node* Almacenar_Total_Ventas(Node* head)
+{
+    FILE *File_Open = fopen("Total_Ventas_Registro.txt","a");
+    if (File_Open == NULL)
+    {
+        printf("\n|>>>| ERROR AL ABRIR EL ARCHIVO |<<<|");
+        exit(3);
+    }
+    float Suma_Pagos;
+    Suma_Pagos = Total_Ventas_Realizadas(fisrt);
+    struct Node* temp = head;
+
+    fprintf(File_Open,"|[****]| REGISTRO TOTAL DE VENTAS: |[]> %.1f <[]| |[****]|",Suma_Pagos);
+
+    while (temp != NULL)
+    {
+        fprintf(File_Open,"\n>----------------------------------------<");
+        fprintf(File_Open,"\n");
+        fprintf(File_Open,"\n|>>>| Categoria Del Producto: > %s < |<<<|",temp->Categoria_Producto);
+        fprintf(File_Open,"\n");
+        fprintf(File_Open,"\n|>>>| Nombre Del Producto:    > %s < |<<<|",temp->Nombre_Del_Producto);
+        fprintf(File_Open,"\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
+        fprintf(File_Open,"\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
+        fprintf(File_Open,"\n|>>>| Precio de la venta:     > %s < |<<<|",temp->Precio_De_Venta);
+        fprintf(File_Open,"\n");
+        fprintf(File_Open,"\n>-------------------------------------- <");
+        fprintf(File_Open,"\n");
+
+        temp = temp->next;
+    }
+    
+    fclose(File_Open);
+}
+
+//? Imprimir la informacion de las ventas realizadas y guardadas mediante los nodos mediante recursividad.
+struct Node* Imprimir_Ventas_Registradas(Node* temp)
+{
+    //! Si temp es = NULL quiere decir que llego al final de la lista
+    if(temp == NULL)
+    {
+        return;
+    }
+
+    printf("\n>----------------------------------------<");
+    printf("\n");
+    printf("\n|>>>| Categoria Del Producto: > %s < |<<<|",temp->Categoria_Producto);
+    printf("\n");
+    printf("\n|>>>| Nombre Del Producto:    > %s < |<<<|",temp->Nombre_Del_Producto);
+    printf("\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
+    printf("\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
+    printf("\n|>>>| Precio de la venta:     > %s < |<<<|",temp->Precio_De_Venta);
+    printf("\n");
+    printf("\n>-------------------------------------- <");
+    printf("\n");
+
+    Imprimir_Ventas_Registradas(temp->next);
+}
+
+//? Procedimiento para concatenar cadenas para mostrar la fecha.
+void concatenar(char* buffer, char* Ano, char* Mes, char* Dia)
+{
+  strcpy(buffer, Ano);
+  strcat(buffer, "/");
+  strcat(buffer, Mes);
+  strcat(buffer, "/");
+  strcat(buffer, Dia);
+}
+
+
+int main(int argc, char const *argv[])
+{   
     
     return 0;
 }
