@@ -1,24 +1,35 @@
 -----------------------------------------------------------------------------------------------
-- >[**********]<         PRECIOS EQUILIBRADOS EN PCS MULTIMEDIA                >[**********]< -
+- >[**********]<            LO MAS ECONOMICO EN PCS GAMING                     >[**********]< -
 -----------------------------------------------------------------------------------------------
 -                                                                                             -
--  >|[***] | PROCESADOR:  >| AMD RYZEN 3 3200g |<                                 | [***]|< -
+-  >|[***] | PROCESADOR:  >| AMD Ryzen 5 5600G 4.40GHz |<                           | [***]|< -
 -                                                                                             -
 -----------------------------------------------------------------------------------------------
 -
 -  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
 -
 -----------------------------------------------------------------------------------------------
--4 Núcleos, 4 Hilos, Velocidad base de 3.6GHz y turbo de 4.0GHz, Radeon™ Vega 8 Graphics.
--Es un procesador excelente para ofimática, pero además lleva una gráfica integrada AMD Radeon 
--Vega 8 que nos permite jugar a un gran número de títulos, 
--siempre que no seamos muy ambiciosos con la configuración gráfica.
+-N.° de núcleos de CPU 6
+-N.° de subprocesos 12
+-N.° de núcleos de GPU 7
+-Reloj base 3.9GHz
+-Reloj de aumento máx. Hasta 4.4GHz
+-Caché L2 total 3MB
+-Caché L3 total 16MB
+-Desbloqueados Sí
+-CMOS TSMC 7nm FinFET
+-Paquete AM4
+-Versión de PCI Express PCIe® 3.0
+-Solución térmica Wraith Stealth
+-TDP/TDP predeterminado 65W
+-cTDP 45-65W
+-Temp. máx. 95°C
 ------------------------------------------------------------------------------------------------
 -
 -  >|[***] | TIENDA: 
 -
 ------------------------------------------------------------------------------------------------
-- Amazon: $ 300.99€
+- Amazon: $ 259.9€
 -    
 - > Nuestra Tienda < : $ 740.000 //Actualizar
 
@@ -79,20 +90,20 @@
 -
 -----------------------------------------------------------------------------------------------
 -Western Digital Blue 500GB
--SSD M.2: Unidad con velocidad de lectura secuencial de hasta 560 MB/s 
--velocidades de escritura secuencial de hasta 530 MB/s, buena opción calidad/precio.
+-SSD M.2: Unidad con velocidad de lectura secuencial de hasta 560 MB/s y velocidades
+-de escritura secuencial de hasta 530 MB/s, buena opción calidad/precio.
 -----------------------------------------------------------------------------------------------
 -
 -  >|[***] | TIENDA: 
 -
 -----------------------------------------------------------------------------------------------
-- Amazon: 61.74 € 
+- Amazon: 61.74€ 
 - > Nuestra Tienda < : $ 150.000 //Actualizar
 
 
 -----------------------------------------------------------------------------------------------
--                                                                                             -
--  >|[***] | FUENTE DE PODER:        >| Corsair CV550 |<        				    | [***]|< -
+-                                                      	                                      -
+-  >|[***] | FUENTE DE PODER:  >| Corsair CV550 | < 								| [***]|< -
 -                                                                                             -
 -----------------------------------------------------------------------------------------------
 -
@@ -106,26 +117,29 @@
 -
 -----------------------------------------------------------------------------------------------
 - Amazon: 46€ 
-- > Nuestra Tienda < : $ 160.000
+- > Nuestra Tienda < : $ 160.000 //Actualizar
 
 
 -----------------------------------------------------------------------------------------------
 -                                                                                             -
--  >|[***] | PLACA BASE:  >| ???//Actualizar                             |<         | [***]|< -
+-  >|[***] | PLACA BASE:  >| MSI MPG B550 Gaming Plus                    |<         | [***]|< -
 -                                                                                             -
 -----------------------------------------------------------------------------------------------
 -
 -  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
 -
 -----------------------------------------------------------------------------------------------
-##Empty
+-Soporte para procesadores AMD Ryzen ™ de tercera generación y futuros procesadores 
+-AMD Ryzen ™ con actualización del BIOSAdmite memoria DDR4, hasta 4400 (OC) MHz
+-Experiencia Lightning Fast Game: PCIe 4.0, Lightning Gen 4 x4 M.2 con M.2 Shield Frozr, 
+-AMD Turbo USB 3.2 GEN 2
 -----------------------------------------------------------------------------------------------
 -
 -  >|[***] | TIENDA: 
 -
 -----------------------------------------------------------------------------------------------
-- Amazon: 0€ 
-- > Nuestra Tienda < : $ 0
+- Amazon: 144.9€ 
+- > Nuestra Tienda < : $ 480.000 //Actualizar
 
 
 -----------------------------------------------------------------------------------------------
