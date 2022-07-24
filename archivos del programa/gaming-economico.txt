@@ -1,108 +1,177 @@
-2.1 Lo mas economico
-
+-----------------------------------------------------------------------------------------------
+- >[**********]<            LO MAS ECONOMICO EN PCS GAMING                     >[**********]< -
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | PROCESADOR:  >| Intel Core i5-11400 |<                                 | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+- Socket 1200
+- Base Frequency (GHz) 2.6 GHz
+- Intel® Smart Cache 12M
+- Cores/ Threads 6/12
+- Memory Speed DDR4
+- Memory Speed Support 3200/2933
+- ntel® single core turbo frequency (GHz) 4.4 GHz
+- Intel® Turbo Boost Max Technology 3.0 single core turbo frequency (GHz) 
 ------------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+------------------------------------------------------------------------------------------------
+- Amazon: $ 169.9€
+-    
+- > Nuestra Tienda < : $ 740.000 
 
-Procesador: Intel Core i5-11400
 
-*Descripcion:
-Socket 1200
-Base Frequency (GHz) 2.6 GHz
-Intel® Smart Cache 12M
-Cores/ Threads 6/12
-Memory Speed DDR4
-Memory Speed Support 3200/2933
-Intel® single core turbo frequency (GHz) 4.4 GHz
-Intel® Turbo Boost Max Technology 3.0 single core turbo frequency (GHz) 
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | RAM:  >| Corsair Vengeance LPX DDR4 3000 16GB 2x8GB CL16 |<            | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-Memoria interna: 16 GB
+-Tipo de memoria interna: DDR4
+-Velocidad de memoria del reloj: 3000 MHz
+-Componente para: PC/servidor
+-Forma de factor de memoria: 288-pin DIMM
+-Diseño de memoria (módulos x tamaño): 2 x 8 GB
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon : 80 €
+- > Nuestra Tienda < : $ 320.000
 
-*Tienda:
-Amazon: 199.9€
-Mercado Libre: Por llenar.
 
-------------------------- IGUAL QUE LA ANTERIOR CATEGORIA DE PCS --------------------------------
-Ram: Corsair Vengeance LPX DDR4 3000 16GB 2x8GB CL16
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | TARJETA GRAFICA:  >| Zotac GAMING GeForce GTX 1650 OC 4GB GDDR6 |<     | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-CUDA: Si
+-Núcleos CUDA: 896
+-Familia de procesadores de gráficos: NVIDIA
+-Procesador gráfico: GeForce GTX 1650
+-Frecuencia del procesador: 1620 MHz
+-Máxima resolución: 3840 x 2160 Pixeles
+-Máximas pantallas por tarjeta de video: 3
+-Capacidad memoria de adaptador gráfico: 4 GB
+-Tipo de memoria de adaptador gráfico: GDDR6
+-Ancho de datos: 128 bit
+-Velocidad de transferencia de datos: 12 Gbit/s
+-Control de energía
+-Suministro de energía al sistema mínimo: 350 W
+-Consumo energético: 75 W
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon : 220 €
+- > Nuestra Tienda < : $ 900.000
 
-*Descripcion:
-Memoria interna: 16 GB
-Tipo de memoria interna: DDR4
-Velocidad de memoria del reloj: 3000 MHz
-Componente para: PC/servidor
-Forma de factor de memoria: 288-pin DIMM
-Diseño de memoria (módulos x tamaño): 2 x 8 GB
 
-*Tienda
-Amazon : 90 €
-Mercado Libre: POr ingresar.
----------------------------------------------------------------------------------------------------
-*|*|*| NUEVO :
--Tarjeta Grafica: Zotac GAMING GeForce GTX 1650 OC 4GB GDDR6 //falta el precio
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | DISCO DURO:  >| Seagate BarraCuda 3.5" 1TB SATA3 |<     | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-HDD 3.5" SATA 1 TB (7200 rpm, SATA a 6 Gb/s
+-64 MB de caché, 3,5") Disco mecánico muy rápido, 
+-No es nada recomendable como disco principal
+-pero si es una buena opción como almacenamiento adicional.
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon: 40€ 
+- > Nuestra Tienda < : $ 150.000
 
-*Descripcion:
-CUDA: Si
-Núcleos CUDA: 896
-Familia de procesadores de gráficos: NVIDIA
-Procesador gráfico: GeForce GTX 1650
-Frecuencia del procesador: 1620 MHz
-Máxima resolución: 3840 x 2160 Pixeles
-Máximas pantallas por tarjeta de video: 3
-Memoria
-Capacidad memoria de adaptador gráfico: 4 GB
-Tipo de memoria de adaptador gráfico: GDDR6
-Ancho de datos: 128 bit
-Velocidad de transferencia de datos: 12 Gbit/s
-Control de energía
-Suministro de energía al sistema mínimo: 350 W
-Consumo energético: 75 W
 
-Disco Duro: Seagate BarraCuda 3.5" 1TB SATA3
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | SSD:  >| Kingston 240 GB |<                                            | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-SSD SATA: Unidad con velocidad de lectura y escritura de hasta 500 MB/s  
+-450 MB/s, Es lo mínimo razonable hoy en día.
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon: 40€ 
+- > Nuestra Tienda < : $ 150.000
 
-*Descripcion:
-HDD 3.5" SATA 1 TB (7200 rpm, SATA a 6 Gb/s, 64 MB de caché, 3,5") Disco mecánico muy rápido, 
-No es nada recomendable como disco principal, pero si es una buena opción como almacenamiento adicional.
 
-*Tienda: 
-Amazon: 40€ 
-Mercado Libre: Por llenar
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | FUENTE DE PODER:  >| Mars Gaming MPB550 550W 80 Plus Bronze |<         | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-Especificaciones Mars Gaming MPB550
+-Control de energía
+-Potencia total: 550 W
+-Voltaje de entrada AC: 200 - 240 V
+-Eficiencia: 90%
+-Puertos e Interfaces
+-Alimentador de energía para tarjeta madre: 20+4 pin ATX
+-Número de conectores de energía SATA: 4
+-Número de PATA conectores de alimentación: 2
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon: 45€ 
+- > Nuestra Tienda < : $ 160.000
 
--------IGUAL QUE LA PRIMERA CATEGORIA DE MULTIMEDIA ECONOMICO-------------------------------------------
-SSD: Kingston 240 GB
 
-*Descripcion:
-SSD SATA: Unidad con velocidad de lectura y escritura de hasta 500 MB/s y 450 MB/s, Es lo mínimo razonable hoy en día.
-
-*Tienda: 
-Amazon: 40€ 
-Mercado Libre: Por llenar
-
--Fuente de Poder:Mars Gaming MPB550 550W 80 Plus Bronze
-
-*Descripcion: 
-Especificaciones Mars Gaming MPB550
-Control de energía
-Potencia total: 550 W
-Voltaje de entrada AC: 200 - 240 V
-
-Eficiencia: 90%
-Puertos e Interfaces
-Alimentador de energía para tarjeta madre: 20+4 pin ATX
-Número de conectores de energía SATA: 4
-Número de PATA conectores de alimentación: 2
-
-*Tiendas:
-Amazon: 40€
-------------------------------------------------------------------------------------------------------
-
--Placa base: AsRock B560 Pro4
-
-*Descripcion: 
-Compatible con procesadores Intel® Core™ de 10ª generación y procesadores Intel® Core™ de 11ª generación
-Diseño de alimentación de 8 fases
-Soporta DDR4 4800MHz (OC)
-1 x PCIe 4.0 x16, 1 x PCIe 3.0 x16, 2 x PCIe 3.0 x1
-1 x M.2 Key-E para WiFi
-Opciones de salida de gráficos: HDMI, DisplayPort
-
-*Tienda: 
-Amazon: 115.49€
-Mercado Libre: Por llenar
-
-++Total: 525.39
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | PLACA BASE:  >| AsRock B560 Pro4                            |<         | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-Compatible con procesadores Intel® Core™ de 10ª generación y 
+-procesadores Intel® Core™ de 11ª generación
+-Diseño de alimentación de 8 fases
+-Soporta DDR4 4800MHz (OC)
+-1 x PCIe 4.0 x16, 1 x PCIe 3.0 x16, 2 x PCIe 3.0 x1
+-1 x M.2 Key-E para WiFi
+-Opciones de salida de gráficos: HDMI, DisplayPort
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon: 115€ 
+- > Nuestra Tienda < : $ 480.000
+-----------------------------------------------------------------------------------------------
