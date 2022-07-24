@@ -1,95 +1,187 @@
-2.2 Lo mejor.
+-----------------------------------------------------------------------------------------------
+- >[**********]<            LO MEJOR EN PCS GAMING                     >[**********]< -
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | PROCESADOR:  >| AMD Ryzen 5 5600X |<                                   | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-CPU 6 núcleos 12 hilos
+-Reloj base 3.7GHz
+-Reloj de aumento máx. Hasta 4.6GHz
+-Caché L2 total 3MB
+-Caché L3 total 32MB
+-Desbloqueados Sí
+-CMOS TSMC 7nm FinFET
+-Package AM4
+-Versión de PCI Express PCIe 4.0 Solución térmica (PIB) Wraith Stealth
+-TDP/TDP predeterminado 65W. Bueno para hacer streaming y jugar a todos los juegos con un optimo rendimiento.
 
 ------------------------------------------------------------------------------------------------
-----------------------------IGUAL QUE LA ANTERIOR CATEGORIA--------------------------------------
--Ram: Corsair Vengeance LPX DDR4 3000 16GB 2x8GB CL16
+-
+-  >|[***] | TIENDA: 
+-
+------------------------------------------------------------------------------------------------
+- Amazon: $ 309€
+-    
+- > Nuestra Tienda < : $ 740.000 //Actualizar
 
-*Descripcion:
-Memoria interna: 16 GB
-Tipo de memoria interna: DDR4
-Velocidad de memoria del reloj: 3000 MHz
-Componente para: PC/servidor
-Forma de factor de memoria: 288-pin DIMM
-Diseño de memoria (módulos x tamaño): 2 x 8 GB
 
-*Tienda
-Amazon : 90 €
-Mercado Libre: POr ingresar.
------------------------------ CAMBIOS --------------------------------
--procesador: AMD Ryzen 5 5600X
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | RAM:  >| Corsair Vengeance LPX DDR4 3000 16GB 2x8GB CL16 |<            | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-Memoria interna: 16 GB
+-Tipo de memoria interna: DDR4
+-Velocidad de memoria del reloj: 3000 MHz
+-Componente para: PC/servidor
+-Forma de factor de memoria: 288-pin DIMM
+-Diseño de memoria (módulos x tamaño): 2 x 8 GB
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon : 80 €
+- > Nuestra Tienda < : $ 320.000
 
-*Descripcion:
-CPU 6 núcleos 12 hilos
-Reloj base 3.7GHz
-Reloj de aumento máx. Hasta 4.6GHz
-Caché L2 total 3MB
-Caché L3 total 32MB
-Desbloqueados Sí
-CMOS TSMC 7nm FinFET
-Package AM4
-Versión de PCI Express PCIe 4.0 Solución térmica (PIB) Wraith Stealth
-TDP/TDP predeterminado 65W. Bueno para hacer streaming y jugar a todos los juegos con un optimo rendimiento.
 
-*tienda:
-Amazon : 309 €
-Mercado Libre : Por llenar
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***]|TARJETA GRAFICA:>|Zotac Gaming GeforceRTX 3070 Twin Edge OC LHR 8GB GDDR6|<|[***]|<-
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-GPU GeForce RTX 3070
+-CUDA cores 5888
+-Memoria Video 8GB GDDR6
+-Bus Memoria 256-bit
+-Reloj del motor Boost: 1755 MHz
+-Reloj de memoria 14 Gbps
+-PCI Express 4.0 16x
+-Salida de Video
+-3 x DisplayPort 1.4a (up to 7680x4320@60Hz)
+-HDMI 2.1* (up to 7680x4320@60Hz) *Ultra High Speed HDMI Cable is required to support 8K/60FPS or 4K/120FPS
+-Recomendad fuente de poder 650W
+-Consumo de Energia 220W
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon : 999 €
+- > Nuestra Tienda < : $ 900.000 //Actualizar
 
--Placa Base: Asus TUF GAMING B550-PLUS
 
-*Descripcion: 
-Placa Base Gaming ATX AMD AM4 con VRM de 10 fases, PCIe 4.0, dual M.2, 2,5Gb LAN, HDMI/DP, 
-USB 3.2 Gen 2 (A y C), Realtek S1200A, BIOS flashback e iluminación RGB Aura Sync. 
-Una placa muy recomendable, excelente calidad/precio.
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | DISCO DURO:  >| Seagate BarraCuda 3.5" 1TB SATA3 |<     | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-HDD 3.5" SATA 1 TB (7200 rpm, SATA a 6 Gb/s
+-64 MB de caché, 3,5") Disco mecánico muy rápido, 
+-No es nada recomendable como disco principal
+-pero si es una buena opción como almacenamiento adicional.
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon: 40€ 
+- > Nuestra Tienda < : $ 150.000
 
-Amazon : 149 €
-Mercado Libre : Por llenar
 
--Tarjeta Grafica:Zotac Gaming Geforce RTX 3070 Twin Edge OC LHR 8GB GDDR6
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | SSD:  >| Samsung 980 Pro SSD 1TB PCIe4 NVMe M.2 |<                     | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-PCI Express 4.0
+-Tipo de memoria: V-NAND MLC
+-NVMe: Si
+-Componente para: PC
+-Encriptación de hardware: Si
+-Velocidad de lectura: 7000 MB/s
+-Velocidad de escritura: 5000 MB/s
+-Lectura aleatoria (4KB): 1000000 IOPS
+-Escritura aleatoria (4KB): 1000000 IOPS
+-Soporte S.M.A.R.T.: Si
+-Soporte TRIM: Si
+-Tiempo medio entre fallos: 1500000 h
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon: 213€ 
+- > Nuestra Tienda < : $ 150.000 //Actualizar
 
-*Descripcion:
-GPU GeForce RTX 3070
-CUDA cores 5888
-Memoria Video 8GB GDDR6
-Bus Memoria 256-bit
-Reloj del motor Boost: 1755 MHz
-Reloj de memoria 14 Gbps
-PCI Express 4.0 16x
-Salida de Video
-3 x DisplayPort 1.4a (up to 7680x4320@60Hz)
-HDMI 2.1* (up to 7680x4320@60Hz) *Ultra High Speed HDMI Cable is required to support 8K/60FPS or 4K/120FPS
-Recomendad fuente de poder 650W
-Consumo de Energia 220W
 
-*tienda:
-Amazon : 999 €
-Mercado Libre : Por llenar 
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | FUENTE DE PODER:  >| Mars Gaming MPB550 550W 80 Plus Gold Full Modular|<|[***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-Especificaciones Mars Gaming MPB550
+-Control de energía
+-Potencia total: 550 W
+-Voltaje de entrada AC: 200 - 240 V
+-Eficiencia: 90%
+-Puertos e Interfaces
+-Alimentador de energía para tarjeta madre: 20+4 pin ATX
+-Número de conectores de energía SATA: 4
+-Número de PATA conectores de alimentación: 2	//Actualizar la descripcion
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon: 108€ 
+- > Nuestra Tienda < : $ 160.000 //Actualizar
 
--SSD: Samsung 980 Pro SSD 1TB PCIe4 NVMe M.2
 
-*Descripcion
-PCI Express 4.0
-Tipo de memoria: V-NAND MLC
-NVMe: Si
-Componente para: PC
-Encriptación de hardware: Si
-Velocidad de lectura: 7000 MB/s
-Velocidad de escritura: 5000 MB/s
-Lectura aleatoria (4KB): 1000000 IOPS
-Escritura aleatoria (4KB): 1000000 IOPS
-Soporte S.M.A.R.T.: Si
-Soporte TRIM: Si
-Tiempo medio entre fallos: 1500000 h
+-----------------------------------------------------------------------------------------------
+-                                                                                             -
+-  >|[***] | PLACA BASE:  >| Asus TUF GAMING B550-PLUS |<      					    | [***]|< -
+-                                                                                             -
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
+-
+-----------------------------------------------------------------------------------------------
+-Placa Base Gaming ATX AMD AM4 con VRM de 10 fases, PCIe 4.0, dual M.2, 2,5Gb LAN, HDMI/DP, 
+-USB 3.2 Gen 2 (A y C), Realtek S1200A, BIOS flashback e iluminación RGB Aura Sync. 
+-Una placa muy recomendable, excelente calidad/precio.
+-----------------------------------------------------------------------------------------------
+-
+-  >|[***] | TIENDA: 
+-
+-----------------------------------------------------------------------------------------------
+- Amazon: 149€ 
+- > Nuestra Tienda < : $ 480.000 //Actualizar
 
-*tienda:
-Amazon : 213 €
-Mercado Libre : Por llenar
 
--Fuente de poder
-*Descripcion 
-80 Plus Gold Full Modular
-
-*precio
-
-Amazon: 108€
-
-++Total: 1868
+-----------------------------------------------------------------------------------------------
