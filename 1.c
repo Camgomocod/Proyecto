@@ -43,7 +43,26 @@ char *Modalidad_Venta, float Precio_De_Venta, char *Num_Factura)
     return head;
 }
 
-//? @brief Funcion para validar : >| Modalidad_Venta| <, Online = 'O', Presencial = 'P'.
+//? Procedimiento para imprimir el menu de opciones:
+void Menu(void)
+{
+    printf("\n\t|--------------------------------------------------------------------|");
+    printf("\n\t|      |[***********]|>          MENU          <|[***********]|      |");
+    printf("\n\t|(>>>>)| Opcion 1: Ingresar informacion de la venta.          |(>>>>)|");
+    printf("\n\t|(>>>>)| Opcion 2: Filtrar facturas por modalidad.            |(>>>>)|");
+    printf("\n\t|(>>>>)| Opcion 3: Modificar valor de venta.                  |(>>>>)|");
+    printf("\n\t|(>>>>)| Opcion 4: Recomedador de Pcs.                        |(>>>>)|");
+    printf("\n\t|(>>>>)| Opcion 5: Imprimir las ventas ingresadas.            |(>>>>)|");
+    printf("\n\t|(>>>>)| Opcion 6: Imprimir todos los registros de venta.     |(>>>>)|");
+    printf("\n\t|(>>>>)| Opcion 7: Imprimir registros modalidad Online.       |(>>>>)|");
+    printf("\n\t|(>>>>)| Opcion 8: Imprimir registros modalidad Presencial.   |(>>>>)|");
+    printf("\n\t|(>>>>)| Opcion 8: >| Salir. |<                               |(>>>>)|");
+    printf("\n\t|--------------------------------------------------------------------|");
+    printf("\n");
+    printf("\n\t|[*]>>>[*]| Digite la opcion que desea seleccionar.        |[*][*]>");
+}
+
+//? Funcion para validar : >| Modalidad_Venta| <, Online = 'O', Presencial = 'P'.
 int Validar_Modalidad(char *Modalidad_Venta)
 {
     char Online[2] = {'0'};
@@ -124,7 +143,7 @@ struct Node* Filtrar_Modalidad(Node* head)
             printf("\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
             printf("\n|>>>| Precio de la venta:     > %s < |<<<|",temp->Precio_De_Venta);
             printf("\n");
-            printf("\n>-------------------------------------- <");
+            printf("\n>----------------------------------------<");
             printf("\n");
 
             //! Para pasar a los nodos siguientes
@@ -237,6 +256,7 @@ float Total_Ventas_Realizadas(struct Node* head)
     while (temp != NULL)
     {
         Suma_Ventas += temp->Precio_De_Venta;
+
         temp = temp->next;
     }
     
@@ -312,6 +332,34 @@ void concatenar(char* buffer, char* Ano, char* Mes, char* Dia)
   strcat(buffer, Dia);
 }
 
+/**
+ * @brief 
+ * ? Le pasamos una etiqueta al procedimento para ser utilizada para imprimir todos los registros:
+ * 1. Online
+ * 2. Presencial
+ * 3. Todos los registros 
+ * 4. Categorias del recomendador de pcs
+ * @param etiqueta 
+ */
+void Imprimir_Registros(char *etiqueta)
+{
+    FILE *File_Open = fopen(etiqueta,"r");
+    if (File_Open == NULL)
+    {
+        printf("\n|>>>| ERROR AL ABRIR EL ARCHIVO |<<<|");
+        exit(6);
+    }
+    char Print;
+    Print = fgetc(File_Open);
+    //! Mientras no llegue al final del txt va a imprimir las palabras copiadas
+    while (!feof(File_Open))
+    {
+        printf("%c",Print);
+        Print = fgetc(File_Open);
+    }
+    
+    fclose(File_Open);
+}
 
 int main(int argc, char const *argv[])
 {   
