@@ -1,0 +1,86 @@
+2.2 Equiilobrado.
+
+------------------------------------------------------------------------------------------------
+
+----------------------------IGUAL QUE LA ANTERIOR CATEGORIA--------------------------------------
+-Procesador: Intel Core i5-11400
+
+*Descripcion:
+Socket 1200
+Base Frequency (GHz) 2.6 GHz
+Intel® Smart Cache 12M
+Cores/ Threads 6/12
+Memory Speed DDR4
+Memory Speed Support 3200/2933
+Intel® single core turbo frequency (GHz) 4.4 GHz
+Intel® Turbo Boost Max Technology 3.0 single core turbo frequency (GHz) 
+
+*Tienda:
+Amazon: 199.9€
+Mercado Libre: Por llenar.
+
+-Ram: Corsair Vengeance LPX DDR4 3000 16GB 2x8GB CL16
+
+*Descripcion:
+Memoria interna: 16 GB
+Tipo de memoria interna: DDR4
+Velocidad de memoria del reloj: 3000 MHz
+Componente para: PC/servidor
+Forma de factor de memoria: 288-pin DIMM
+Diseño de memoria (módulos x tamaño): 2 x 8 GB
+
+*Tienda
+Amazon : 90 €
+Mercado Libre: POr ingresar.
+
+----------------------------- CAMBIOS --------------------------------
+
+- Tarjeta Grafica: PowerColor FIGHTER AMD Radeon RX 6600 8GB GDDR6 
+
+Procesador gráfico: Radeon RX 6600
+Frecuencia del procesador: 2044 MHz
+Aumento de la velocidad de reloj del procesador: 2491 MHz
+Procesadores de corriente: 1792
+Memoria
+Capacidad memoria de adaptador gráfico: 8 GB
+Tipo de memoria de adaptador gráfico: GDDR6
+Ancho de datos: 128 bit
+Velocidad de transferencia de datos: 14 Gbit/s
+
+*Tienda
+Amazon : 700 €
+Mercado Libre: POr ingresar.
+
+-Placa base: Asus TUF GAMING B560-PLUS WIFI
+
+*Descripcion:
+
+Zócalo Intel® LGA 1200: listo para procesadores Intel® Core ™ de décima y undécima generación
+Solución de potencia mejorada: 8 + 1 etapas de potencia DrMOS, PCB de 6 capas, enchufes ProCool, 
+componentes TUF de grado militar y Digi + VRM para una máxima durabilidad
+Refrigeración integral: disipador de calor VRM, disipador de calor sin ventilador PCH, 
+disipador de calor M.2 flexible, cabezales de ventilador híbridos y utilidad Fan Xpert 4
+Conectividad de próxima generación: PCIe 4.0 M.2, USB 3.2 Gen 2 Type-A y Type-C, USB 3.2 Gen 1 Type-C® frontal,
+
+*Tienda
+Amazon : 163 €
+Mercado Libre: POr ingresar.
+
+-Fuente de Porder: Corsair RM750 750W
+
+*Descripcion
+80 Plus Gold Full Modular
+
+*Precio:
+Amazon: 150 €
+Mercado Libre: Por llenar.
+
+-Fuente de poder
+*Descripcion 
+80 Plus Gold Full Modular
+
+*precio
+
+Amazon: 108€
+
+++Total: 1302.9

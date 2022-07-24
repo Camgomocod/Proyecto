@@ -1,0 +1,50 @@
+P.C Multimedia.
+1.2 Equilibrado
+--------------------------- SON IGUALES QUE PC ECONOMICO ---------------------------------
+Procesador: AMD RYZEN 3 3200g
+
+*Descripcion:
+4 Núcleos, 4 Hilos, Velocidad base de 3.6GHz y turbo de 4.0GHz, Radeon™ Vega 8 Graphics.
+ Es un procesador excelente para ofimática, pero además lleva una gráfica integrada AMD Radeon 
+Vega 8 que nos permite jugar a un gran número de títulos, 
+siempre que no seamos muy ambiciosos con la configuración gráfica.
+
+*Tiendas:
+Amazon: 300.99€
+Mercado libre: Por ingresar
+
+Ram: Corsair Vengeance LPX DDR4 3000 16GB 2x8GB CL16
+
+*Descripcion:
+Memoria interna: 16 GB
+Tipo de memoria interna: DDR4
+Velocidad de memoria del reloj: 3000 MHz
+Componente para: PC/servidor
+Forma de factor de memoria: 288-pin DIMM
+Diseño de memoria (módulos x tamaño): 2 x 8 GB
+
+*Tienda
+Amazon : 90 €
+Mercado Libre: POr ingresar.
+
+--------------------------- CAMBIOS ----------------------
+
+SSD: Western Digital Blue 500GB
+
+*Descripcion:
+Western Digital Blue 500GB
+SSD M.2: Unidad con velocidad de lectura secuencial de hasta 560 MB/s y velocidades
+de escritura secuencial de hasta 530 MB/s, buena opción calidad/precio.
+
+*Tiendas:
+Amazon : 61.74€
+Mercado Libre: Por llenar.
+
+Fuente de poder: Corsair CV550
+
+*Descripcion:
+Fente de alimentación (550 Watts, PFC Activo, 80 Plus)
+Amazon: 46€
+Mercado Libre: Por llenar.
+
+++Total: 498.73
