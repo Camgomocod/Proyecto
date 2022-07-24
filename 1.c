@@ -46,20 +46,21 @@ char *Modalidad_Venta, float Precio_De_Venta, char *Num_Factura)
 //? Procedimiento para imprimir el menu de opciones:
 void Menu(void)
 {
-    printf("\n\t|--------------------------------------------------------------------|");
-    printf("\n\t|      |[***********]|>          MENU          <|[***********]|      |");
-    printf("\n\t|(>>>>)| Opcion 1: Ingresar informacion de la venta.          |(>>>>)|");
-    printf("\n\t|(>>>>)| Opcion 2: Filtrar facturas por modalidad.            |(>>>>)|");
-    printf("\n\t|(>>>>)| Opcion 3: Modificar valor de venta.                  |(>>>>)|");
-    printf("\n\t|(>>>>)| Opcion 4: Recomedador de Pcs.                        |(>>>>)|");
-    printf("\n\t|(>>>>)| Opcion 5: Imprimir las ventas ingresadas.            |(>>>>)|");
-    printf("\n\t|(>>>>)| Opcion 6: Imprimir todos los registros de venta.     |(>>>>)|");
-    printf("\n\t|(>>>>)| Opcion 7: Imprimir registros modalidad Online.       |(>>>>)|");
-    printf("\n\t|(>>>>)| Opcion 8: Imprimir registros modalidad Presencial.   |(>>>>)|");
-    printf("\n\t|(>>>>)| Opcion 8: >| Salir. |<                               |(>>>>)|");
-    printf("\n\t|--------------------------------------------------------------------|");
+    
+    printf("\n\t\t|--------------------------------------------------------------------|");
+    printf("\n\t\t|      |[***********]|>          MENU          <|[***********]|      |");
+    printf("\n\t\t|(>>>>)| Opcion 1: Ingresar informacion de la venta.          |(>>>>)|");
+    printf("\n\t\t|(>>>>)| Opcion 2: Filtrar facturas por modalidad.            |(>>>>)|");
+    printf("\n\t\t|(>>>>)| Opcion 3: Modificar valor de venta.                  |(>>>>)|");
+    printf("\n\t\t|(>>>>)| Opcion 4: Recomedador de Pcs.                        |(>>>>)|");
+    printf("\n\t\t|(>>>>)| Opcion 5: Imprimir las ventas ingresadas.            |(>>>>)|");
+    printf("\n\t\t|(>>>>)| Opcion 6: Imprimir todos los registros de venta.     |(>>>>)|");
+    printf("\n\t\t|(>>>>)| Opcion 7: Imprimir registros modalidad Online.       |(>>>>)|");
+    printf("\n\t\t|(>>>>)| Opcion 8: Imprimir registros modalidad Presencial.   |(>>>>)|");
+    printf("\n\t\t|(>>>>)| Opcion 8: >| Salir. |<                               |(>>>>)|");
+    printf("\n\t\t|--------------------------------------------------------------------|");
     printf("\n");
-    printf("\n\t|[*]>>>[*]| Digite la opcion que desea seleccionar.        |[*][*]>");
+    printf("\n\t\t|[*]>>>[*]| Digite la opcion que desea seleccionar.        |[*][*]>");
 }
 
 //? Funcion para validar : >| Modalidad_Venta| <, Online = 'O', Presencial = 'P'.
