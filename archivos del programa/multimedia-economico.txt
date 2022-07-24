@@ -1,0 +1,78 @@
+PC Multimedia
+1.1 Lp mas economico: 
+
+Procesador: AMD RYZEN 3 3200g
+
+*Descripcion:
+4 Núcleos, 4 Hilos, Velocidad base de 3.6GHz y turbo de 4.0GHz, Radeon™ Vega 8 Graphics.
+ Es un procesador excelente para ofimática, pero además lleva una gráfica integrada AMD Radeon 
+Vega 8 que nos permite jugar a un gran número de títulos, 
+siempre que no seamos muy ambiciosos con la configuración gráfica.
+
+*Tiendas:
+Amazon: 300.99€
+Mercado libre: Por ingresar
+
+Ram: Corsair Vengeance LPX DDR4 3000 16GB 2x8GB CL16
+
+*Descripcion:
+Memoria interna: 16 GB
+Tipo de memoria interna: DDR4
+Velocidad de memoria del reloj: 3000 MHz
+Componente para: PC/servidor
+Forma de factor de memoria: 288-pin DIMM
+Diseño de memoria (módulos x tamaño): 2 x 8 GB
+Latencia CAS: 16
+Voltaje de memoria: 1.2,1.35 V
+Intel® Extreme Memory Profile (XMP): Si
+Versión del perfil Intel XMP (Extreme Memory Profile): 2.0
+
+*Tienda
+Amazon : 90 €
+MErcado Libre: POr ingresar.
+
+Placa base: MSI A320M A PRO M2
+
+*Descripcion:
+Características:
+Admite AMD® Ryzen ™ / Ryzen ™ de 1.a, 2.a y 3.a generación con gráficos Radeon ™ Vega y AMD® Ryzen ™ de 2.a generación con gráficos Radeon ™ / Athlon ™ con gráficos Radeon ™ Vega y procesadores de escritorio A-series / Athlon ™ X4 para Socket AM4
+Admite memoria DDR4, hasta 3200 (OC) MHz
+Turbo M.2: la ejecución en PCI-E Gen3 x4 maximiza el rendimiento de los SSD basados en NVMe
+Especificaciones MSI A320M-A PRO M2
+Socket AM4
+CPU (Max Support) RYZEN
+Chipset AMD® A320 Chipset
+DDR4 Memory 1866/ 2133/ 2400/ 2667Mhz (by JEDEC) 2667/ 2800/ 2933/ 3000/ 3066/ 3200 MHz (by A-XMP OC MODE)
+Memory Channel Dual
+
+
+*Tienda:
+Amazon: 60€
+Mercado Libre: Por ingresar.
+
+SSD: Kingston 240 GB
+
+*Descripcion:
+SSD SATA: Unidad con velocidad de lectura y escritura de hasta 500 MB/s y 450 MB/s, Es lo mínimo razonable hoy en día.
+
+*Tienda: 
+Amazon: 40€ 
+
+Fuente de Poder:Mars Gaming MPB550 550W 80 Plus Bronze
+
+*Descripcion: 
+Especificaciones Mars Gaming MPB550
+Control de energía
+Potencia total: 550 W
+Voltaje de entrada AC: 200 - 240 V
+
+Eficiencia: 90%
+Puertos e Interfaces
+Alimentador de energía para tarjeta madre: 20+4 pin ATX
+Número de conectores de energía SATA: 4
+Número de PATA conectores de alimentación: 2
+
+*Tiendas:
+Amazon: 40€
+
+++Total: 530.99€
