@@ -6,7 +6,7 @@ typedef struct Node
 {
     char Categoria_Producto[100];
     char Nombre_Del_Producto[50];
-    char Fecha_De_Venta[50];
+    char Fecha_De_Venta[40];
     char Modalidad_Venta[2];
     float Precio_De_Venta;
     char Num_Factura[10];
@@ -14,7 +14,7 @@ typedef struct Node
 
 }Node;
 
-struct Node* head, *fisrt = NULL, *temp2;
+struct Node* head, *first = NULL, *temp2;
 //? @brief Funcione para vincular los nodos de manera dinamica donde van a ir conectados por las direcciones de memoria de cada uno.
 struct Node* Conexion_Nodos(Node* head, char *Categoria_Producto, char *Nombre_Del_Producto, char* Fecha_De_Venta,
 char *Modalidad_Venta, float Precio_De_Venta, char *Num_Factura)
@@ -274,7 +274,7 @@ struct Node* Almacenar_Total_Ventas(Node* head)
         exit(3);
     }
     float Suma_Pagos;
-    Suma_Pagos = Total_Ventas_Realizadas(fisrt);
+    Suma_Pagos = Total_Ventas_Realizadas(first);
     struct Node* temp = head;
 
     fprintf(File_Open,"|[****]| REGISTRO TOTAL DE VENTAS: |[]> %.1f <[]| |[****]|",Suma_Pagos);
@@ -360,6 +360,60 @@ void Imprimir_Registros(char *etiqueta)
     }
     
     fclose(File_Open);
+}
+
+//? Procedimiento para registrar la informacion de las ventas en los nodos > Linked List <
+void Register_Informacion_Ventas(void)
+{
+    //! Variables que van a ser copiadas en los nodos o asignadas.
+    char Categoria_Producto[100];
+    char Nombre_Del_Producto[50];
+    char Dia[10], Mes[20], Ano[10], Fecha_De_Venta[40];
+    char Modalidad_De_Venta[2];
+    float Precio_De_Venta;
+    char Num_Factura[10];
+    int Num_Nodos;
+
+    printf("\n[[**]]> DIgite cuantas ventas desea registrar:       <[[**]] ");
+    scanf("%d",&Num_Nodos);
+
+    for (int i = 0; i < Num_Nodos; i++)
+    {
+        do
+        {
+            printf("|[>>>]| Ingrese la categoria del producto :   [[**]]> ");
+            gets(Categoria_Producto);
+        } while (!Validar_Categorias(Categoria_Producto));
+
+        printf("|[>>>]| Ingrese el nombre del producto :    [[**]]> ");
+        gets(Nombre_Del_Producto);
+
+        printf("|[>>>]| Ingrese la fecha de venta:          [[**]]> ");
+        printf("\n");
+        printf("|[>>>]| AÑO:                 [[**]]>");
+        scanf("%s",Ano);
+        printf("|[>>>]| MES:                 [[**]]>");
+        scanf("%s",Mes);
+        printf("|[>>>]| DIA:                 [[**]]>");
+        scanf("%s",Dia);
+        concatenar(Fecha_De_Venta, Ano, Mes, Dia);
+        do
+        {
+            printf("|[>>>]| Ingrese modalidad de venta:          [[**]]> ");
+            scanf("%s",Modalidad_De_Venta);
+        } while (!Validar_Categorias(Modalidad_De_Venta));
+        
+        printf("|[>>>]| Ingrese el precio de venta:         [[**]]> ");
+        scanf("%f",&Precio_De_Venta);
+
+        printf("|[>>>]| Ingrese el numero de factura:       [[**]]> ");
+        scanf("%s",Num_Factura);
+
+        //! Guardar los cambios realizados guardandolos en el puntero de nodo > 'First' < 
+        first = Conexion_Nodos(first, Categoria_Producto, Nombre_Del_Producto, Fecha_De_Venta, Modalidad_De_Venta,
+        Precio_De_Venta, Num_Factura);
+        system("cls");
+    }
 }
 
 int main(int argc, char const *argv[])
