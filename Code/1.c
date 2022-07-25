@@ -4,12 +4,12 @@
 #include <stdbool.h>
 typedef struct Node
 {
-    char Categoria_Producto[100];
-    char Nombre_Del_Producto[50];
-    char Fecha_De_Venta[40];
+    char Categoria_Producto[101];
+    char Nombre_Del_Producto[51];
+    char Fecha_De_Venta[41];
     char Modalidad_Venta[2];
     float Precio_De_Venta;
-    char Num_Factura[10];
+    char Num_Factura[11];
     struct Node* next;
 
 }Node;
@@ -57,7 +57,7 @@ void Menu(void)
     printf("\n\t\t|(>>>>)| Opcion 6: Imprimir todos los registros de venta.     |(<<<<)|");
     printf("\n\t\t|(>>>>)| Opcion 7: Imprimir registros modalidad Online.       |(<<<<)|");
     printf("\n\t\t|(>>>>)| Opcion 8: Imprimir registros modalidad Presencial.   |(<<<<)|");
-    printf("\n\t\t|(>>>>)| Opcion 8: >| Salir. |<                               |(<<<<)|");
+    printf("\n\t\t|(>>>>)| Opcion 9: >| Salir. |<                               |(<<<<)|");
     printf("\n\t\t|--------------------------------------------------------------------|");
     printf("\n");
     printf("\n\t\t|[*]>>>[*]| Digite la opcion que desea seleccionar.        |[*][*]>");
@@ -66,14 +66,18 @@ void Menu(void)
 //? Funcion para validar : >| Modalidad_Venta| <, Online = 'O', Presencial = 'P'.
 int Validar_Modalidad(char *Modalidad_Venta)
 {
-    char Online[2] = {'0'};
+    char Online[2] = {'O'};
     char Presencial[2] = {'P'};
 
     //! Con >| strcmp |< comparamos las cadenas, si nos devuelve 0 es porque las cadenas son iguales por lo tanto retorna 1.
-    if (strcmp(Modalidad_Venta,Online) == 0 || strcmp(Modalidad_Venta,Presencial) == 0)
+    if (strcmp(Modalidad_Venta, Online) == 0) 
     {
         return 1;
-    }else
+    }else if (strcmp(Modalidad_Venta, Presencial) == 0)
+    {
+        return 1;
+    }
+    
 
     return 0; 
 }
@@ -100,14 +104,28 @@ bool Validar_Categorias(char *Categoria_Producto)
     char Disco_Duro[20] = {"Disco Duro"};
 
     //! Si al comparar la cadena que le pasamos al la funcion coincide con alguna retorna true.
-    if(strcmp(Categoria_Producto,Placa_Base) == 0) return true;
-    if(strcmp(Categoria_Producto,Ram) == 0) return true;
-    if(strcmp(Categoria_Producto,Fuente_De_Poder) == 0) return true;
-    if(strcmp(Categoria_Producto,Procesador) == 0) return true;
-    if(strcmp(Categoria_Producto,Ssd) == 0) return true;
-    if(strcmp(Categoria_Producto,Tarjeta_Grafica) == 0) return true;
-    if(strcmp(Categoria_Producto,Disco_Duro) == 0) return true;
-
+    if(strcmp(Categoria_Producto,Placa_Base) == 0)
+    {
+        return true;
+    }else if(strcmp(Categoria_Producto,Ram) == 0)
+    {
+        return true;  
+    }else if(strcmp(Categoria_Producto,Fuente_De_Poder) == 0)
+    { 
+        return true; 
+    }else if(strcmp(Categoria_Producto,Procesador) == 0)
+    {
+         return true;
+    }else if(strcmp(Categoria_Producto,Ssd) == 0)
+    {
+        return true;
+    }else if(strcmp(Categoria_Producto,Tarjeta_Grafica) == 0) 
+    {
+        return true;
+    }else if(strcmp(Categoria_Producto,Disco_Duro) == 0)
+    {
+        return true;
+    }
     //! Si al comparar la cadena que le pasamos a la funcion *no* coincide con ninguna retorna false.
     return false;
 }
@@ -133,7 +151,7 @@ struct Node* Filtrar_Modalidad(Node* head)
     while(temp != NULL)
     {
         //! Segun el tipo de servicio ingresado para filtrar se mostrara los nodos con esa modalidad
-        if (strcmp(temp->Modalidad_Venta,Tipo_Servicio) == 0);
+        if (strcmp(temp->Modalidad_Venta,Tipo_Servicio) == 0)
         {
             printf("\n>----------------------------------------<");
             printf("\n");
@@ -142,7 +160,7 @@ struct Node* Filtrar_Modalidad(Node* head)
             printf("\n|>>>| Nombre Del Producto:    > %s < |<<<|",temp->Nombre_Del_Producto);
             printf("\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
             printf("\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
-            printf("\n|>>>| Precio de la venta:     > %s < |<<<|",temp->Precio_De_Venta);
+            printf("\n|>>>| Precio de la venta:     > %.1f < |<<<|",temp->Precio_De_Venta);
             printf("\n");
             printf("\n>----------------------------------------<");
             printf("\n");
@@ -180,7 +198,7 @@ struct Node* Buscar_Num_Factura(Node* head)
 struct Node* Almacenar_Registros_Online(Node* head)
 {
     //! Abrimos el txt donde vamos a guardar los registros por modalidad es este caso es : > Online <
-    FILE *File_Open = fopen("Online_Register.txt","a");
+    FILE *File_Open = fopen("../archivos del programa/CategoriasPcs/Online_Register.txt","a");
     //! Si el puntero fp es nullo va a imprimir un error: no pudo abrir el archivo.
     if (File_Open == NULL)
     {
@@ -189,7 +207,8 @@ struct Node* Almacenar_Registros_Online(Node* head)
     }
     struct Node* temp = head; 
     //! Modalidad de venta
-    char Online[2] = {'0'};
+    char Online[2] = {'O'};
+    fprintf(File_Open,"|[****]| NUEVO REGISTRO: : |[]>");
     //! Guardamos el registro en: > Online_Register.txt < si cumple con la condicion de ser igual a modalidad Online.
     while (temp != NULL)
     {
@@ -202,7 +221,7 @@ struct Node* Almacenar_Registros_Online(Node* head)
             fprintf(File_Open,"\n|>>>| Nombre Del Producto:    > %s < |<<<|",temp->Nombre_Del_Producto);
             fprintf(File_Open,"\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
             fprintf(File_Open,"\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
-            fprintf(File_Open,"\n|>>>| Precio de la venta:     > %s < |<<<|",temp->Precio_De_Venta);
+            fprintf(File_Open,"\n|>>>| Precio de la venta:     > %.1f < |<<<|",temp->Precio_De_Venta);
             fprintf(File_Open,"\n");
             fprintf(File_Open,"\n>-------------------------------------- <");
             fprintf(File_Open,"\n");
@@ -217,7 +236,7 @@ struct Node* Almacenar_Registros_Online(Node* head)
 //? Procedimiento para guardar la informacion de las facturas con la modalidad : Presencial = 'P'.
 struct Node* Almacenar_Registros_Presencial(Node* head)
 {
-    FILE *File_Open = fopen("Presencial_Register.txt","a");
+    FILE *File_Open = fopen("../archivos del programa/CategoriasPcs/Presencial_Register.txt","a");
     if (File_Open == NULL)
     {
         printf("\n|>>>| ERROR AL ABRIR EL ARCHIVO |<<<|");
@@ -226,6 +245,7 @@ struct Node* Almacenar_Registros_Presencial(Node* head)
     struct Node* temp = head; 
     //! Modalidad de venta.
     char Presencial[2] = {'P'};
+    fprintf(File_Open,"|[****]| NUEVO REGISTRO: : |[]>");
     while (temp != NULL)
     {
         if (strcmp(temp->Modalidad_Venta,Presencial) == 0)
@@ -236,8 +256,8 @@ struct Node* Almacenar_Registros_Presencial(Node* head)
             fprintf(File_Open,"\n");
             fprintf(File_Open,"\n|>>>| Nombre Del Producto:    > %s < |<<<|",temp->Nombre_Del_Producto);
             fprintf(File_Open,"\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
-            fprintf(File_Open,"\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
-            fprintf(File_Open,"\n|>>>| Precio de la venta:     > %s < |<<<|",temp->Precio_De_Venta);
+            fprintf(File_Open,"\n|>>>| Modalidad De Venta:     > %s <  |<<<|",temp->Modalidad_Venta);
+            fprintf(File_Open,"\n|>>>| Precio de la venta:     > %.1f < |<<<|",temp->Precio_De_Venta);
             fprintf(File_Open,"\n");
             fprintf(File_Open,"\n>-------------------------------------- <");
             fprintf(File_Open,"\n");
@@ -267,7 +287,7 @@ float Total_Ventas_Realizadas(struct Node* head)
 //? Procedimiento para guardar la informacion de todas las facturas generadas
 struct Node* Almacenar_Total_Ventas(Node* head)
 {
-    FILE *File_Open = fopen("Total_Ventas_Registro.txt","a");
+    FILE *File_Open = fopen("../archivos del programa/CategoriasPcs/Total_Ventas_Registro.txt","a");
     if (File_Open == NULL)
     {
         printf("\n|>>>| ERROR AL ABRIR EL ARCHIVO |<<<|");
@@ -288,7 +308,7 @@ struct Node* Almacenar_Total_Ventas(Node* head)
         fprintf(File_Open,"\n|>>>| Nombre Del Producto:    > %s < |<<<|",temp->Nombre_Del_Producto);
         fprintf(File_Open,"\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
         fprintf(File_Open,"\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
-        fprintf(File_Open,"\n|>>>| Precio de la venta:     > %s < |<<<|",temp->Precio_De_Venta);
+        fprintf(File_Open,"\n|>>>| Precio de la venta:     > %.1f < |<<<|",temp->Precio_De_Venta);
         fprintf(File_Open,"\n");
         fprintf(File_Open,"\n>-------------------------------------- <");
         fprintf(File_Open,"\n");
@@ -315,7 +335,7 @@ struct Node* Imprimir_Ventas_Registradas(Node* temp)
     printf("\n|>>>| Nombre Del Producto:    > %s < |<<<|",temp->Nombre_Del_Producto);
     printf("\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
     printf("\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
-    printf("\n|>>>| Precio de la venta:     > %s < |<<<|",temp->Precio_De_Venta);
+    printf("\n|>>>| Precio de la venta:     > %.1f < |<<<|",temp->Precio_De_Venta);
     printf("\n");
     printf("\n>-------------------------------------- <");
     printf("\n");
@@ -374,39 +394,42 @@ void Register_Informacion_Ventas(void)
     char Num_Factura[10];
     int Num_Nodos;
 
-    printf("\n[[**]]> DIgite cuantas ventas desea registrar:       <[[**]] ");
+    printf("\n[[**]]>DIgite cuantas ventas desea registrar:       <[[**]] ");
     scanf("%d",&Num_Nodos);
 
     for (int i = 0; i < Num_Nodos; i++)
     {
         do
         {
-            printf("|[>>>]| Ingrese la categoria del producto :   [[**]]> ");
+            printf("|[>>>]|Ingrese la categoria del producto\n[[**]]> ");
+            getchar();
             gets(Categoria_Producto);
+
         } while (!Validar_Categorias(Categoria_Producto));
 
-        printf("|[>>>]| Ingrese el nombre del producto :    [[**]]> ");
+        printf("|[>>>]|Ingrese el nombre del producto\n[[**]]> ");
         gets(Nombre_Del_Producto);
-
-        printf("|[>>>]| Ingrese la fecha de venta:          [[**]]> ");
         printf("\n");
-        printf("|[>>>]| AÑO:                 [[**]]>");
+        printf("|[>>>]|Ingrese la fecha de venta:");
+        printf("\n");
+        printf("|[>>>]|AÑO\t[[**]]> ");
         scanf("%s",Ano);
-        printf("|[>>>]| MES:                 [[**]]>");
+        printf("|[>>>]|MES\t[[**]]> ");
         scanf("%s",Mes);
-        printf("|[>>>]| DIA:                 [[**]]>");
+        printf("|[>>>]|DIA\t[[**]]> ");
         scanf("%s",Dia);
         concatenar(Fecha_De_Venta, Ano, Mes, Dia);
+        printf("\n");
         do
         {
-            printf("|[>>>]| Ingrese modalidad de venta:          [[**]]> ");
+            printf("|[>>>]| Ingrese modalidad de venta\t[[**]]>");
             scanf("%s",Modalidad_De_Venta);
-        } while (!Validar_Categorias(Modalidad_De_Venta));
-        
-        printf("|[>>>]| Ingrese el precio de venta:         [[**]]> ");
+        } while (!Validar_Modalidad(Modalidad_De_Venta));
+        printf("\n");
+        printf("|[>>>]| Ingrese el precio de venta\t[[**]]>");
         scanf("%f",&Precio_De_Venta);
-
-        printf("|[>>>]| Ingrese el numero de factura:       [[**]]> ");
+        printf("\n");
+        printf("|[>>>]| Ingrese el numero de factura\t[[**]]> ");
         scanf("%s",Num_Factura);
 
         //! Guardar los cambios realizados guardandolos en el puntero de nodo > 'First' < 
@@ -416,15 +439,15 @@ void Register_Informacion_Ventas(void)
     }
 }
 
-// Procedimiento para la recomendación de PCs 
-void menu_presupuestos(){
+//? Procedimiento para la recomendación de PCs 
+void Menu_Presupuestos(){
 	int opc1, opc2;
 	do{
 		printf("\n\t\t|-------------------------------||");
 		printf("\n\t\t|<<>>| 1. PC Gaming        |<<>>||");
 		printf("\n\t\t|<<>>| 2. PC Multimedia    |<<>>||");
 		printf("\n\t\t|-------------------------------||");
-		printf("\n\n###--\tIngrese la opcion:\n>> ");
+		printf("\n\t\t[**]--Ingrese la opcion:>> ");
 		scanf("%d", &opc1);
 	}while(opc1 != 1 && opc1 != 2);
 	do{
@@ -433,10 +456,10 @@ void menu_presupuestos(){
 		printf("\n\t\t|<<>>| 2. Gama Media       |<<>>||");
 		printf("\n\t\t|<<>>| 3. Gama Alta        |<<>>||");
 		printf("\n\t\t|--------------------------|<<>>||");
-		printf("\n\n###--\tIngrese la opcion:\n\t>> ");
+		printf("\n\t\t[**]-Ingrese la opcion:>> ");
 		scanf("%d", &opc2);
 	}while(opc2 < 1 || opc2 > 3);
-	
+	system("cls");
 	switch(opc2){
 		case 1:
 			if (opc1 == 1){
@@ -462,10 +485,68 @@ void menu_presupuestos(){
 			}
 			break;
 	}
+
 }
 
+//? Funcion main.
 int main(int argc, char const *argv[])
 {   
+    int opc;
+    do
+    {
+        system("pause");
+        system("cls");
+        Menu();
+        scanf("%d",&opc);
+        system("cls");
+        switch (opc)
+        {
+        case 1:
+            system("cls");  
+            Register_Informacion_Ventas();
+            break;
+        case 2: 
+            system("cls");
+            Filtrar_Modalidad(first);
+            break;
+        case 3:
+            system("cls");
+            Buscar_Num_Factura(first);
+            break;
+        case 4: 
+            system("cls");
+            Menu_Presupuestos();
+            break;
+        case 5:
+            system("cls");
+            Imprimir_Ventas_Registradas(first);
+            break;
+        case 6:
+            system("cls");
+            Imprimir_Registros("../archivos del programa/CategoriasPcs/Total_Ventas_Registro.txt");
+            break;
+        case 7:
+            system("cls");
+            Imprimir_Registros("../archivos del programa/CategoriasPcs/Online_Register.txt");
+            break;
+        case 8:
+            system("cls");
+            Imprimir_Registros("../archivos del programa/CategoriasPcs/Presencial_Register.txt");
+            break;
+        case 9:
+            system("cls");
+            printf("\t\n[|*|*|*|]          GRACIAS POR ELEGIRNOS         [|*|*|*|]\n");
+            break;
+        default:
+            system("cls");
+            printf("\n\t[|*|*|*|]      OPCION INVALIDA!     [|*|*|*|]");
+            break;
+        }
+    } while (opc != 9 );
     
+    Almacenar_Registros_Online(first);
+    Almacenar_Registros_Presencial(first);
+    Almacenar_Total_Ventas(first);
+
     return 0;
 }
