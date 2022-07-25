@@ -31,3 +31,26 @@
 |>>>| Precio de la venta:     > 680000.0 < |<<<|
 
 >-------------------------------------- <
+|[****]| NUEVO REGISTRO: : |[]>
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: > Ram < |<<<|
+
+|>>>| Nombre Del Producto:    > Corsair vengance < |<<<|
+|>>>| Fecha De Venta:         > 2022/abril/8 < |<<<|
+|>>>| Modalidad De Venta:     > P <  |<<<|
+|>>>| Precio de la venta:     > 123.0 < |<<<|
+
+>-------------------------------------- <
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: > Ssd < |<<<|
+
+|>>>| Nombre Del Producto:    > dir < |<<<|
+|>>>| Fecha De Venta:         > 2022/marzo/aaaaaaaaaadir < |<<<|
+|>>>| Modalidad De Venta:     > P <  |<<<|
+|>>>| Precio de la venta:     > 3453.0 < |<<<|
+
+>-------------------------------------- <
+|[****]| NUEVO REGISTRO: : |[]>
