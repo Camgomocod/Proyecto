@@ -416,6 +416,54 @@ void Register_Informacion_Ventas(void)
     }
 }
 
+// Procedimiento para la recomendación de PCs 
+void menu_presupuestos(){
+	int opc1, opc2;
+	do{
+		printf("\n\t\t|-------------------------------||");
+		printf("\n\t\t|<<>>| 1. PC Gaming        |<<>>||");
+		printf("\n\t\t|<<>>| 2. PC Multimedia    |<<>>||");
+		printf("\n\t\t|-------------------------------||");
+		printf("\n\n###--\tIngrese la opcion:\n>> ");
+		scanf("%d", &opc1);
+	}while(opc1 != 1 && opc1 != 2);
+	do{
+		printf("\n\t\t|--------------------------|<<>>||");
+		printf("\n\t\t|<<>>| 1. Gama Economica   |<<>>||");
+		printf("\n\t\t|<<>>| 2. Gama Media       |<<>>||");
+		printf("\n\t\t|<<>>| 3. Gama Alta        |<<>>||");
+		printf("\n\t\t|--------------------------|<<>>||");
+		printf("\n\n###--\tIngrese la opcion:\n\t>> ");
+		scanf("%d", &opc2);
+	}while(opc2 < 1 || opc2 > 3);
+	
+	switch(opc2){
+		case 1:
+			if (opc1 == 1){
+				Imprimir_Registros("../archivos del programa/CategoriasPcs/gaming-economico.txt");
+			}else if(opc1 == 2){
+				Imprimir_Registros("../archivos del programa/CategoriasPcs/multimedia-economico.txt");
+			}
+			break;
+		
+		case 2:
+			if (opc1 == 1){
+				Imprimir_Registros("../archivos del programa/CategoriasPcs/gaming-equilibrado.txt");
+			}else if(opc1 == 2){
+				Imprimir_Registros("../archivos del programa/CategoriasPcs/multimedia-equilibrado.txt");
+			}
+			break;
+		
+		case 3:
+			if (opc1 == 1){
+				Imprimir_Registros("../archivos del programa/CategoriasPcs/gaming-loMejor.txt");
+			}else if(opc1 == 2){
+				Imprimir_Registros("../archivos del programa/CategoriasPcs/multimedia-loMejor.txt");
+			}
+			break;
+	}
+}
+
 int main(int argc, char const *argv[])
 {   
     
