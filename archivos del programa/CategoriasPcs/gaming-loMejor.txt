@@ -18,16 +18,16 @@
 -CMOS TSMC 7nm FinFET
 -Package AM4
 -Versión de PCI Express PCIe 4.0 Solución térmica (PIB) Wraith Stealth
--TDP/TDP predeterminado 65W. Bueno para hacer streaming y jugar a todos los juegos con un optimo rendimiento.
-
+-TDP/TDP predeterminado 65W. Bueno para hacer streaming y 
+-jugar a todos los juegos con un optimo rendimiento.
 ------------------------------------------------------------------------------------------------
 -
 -  >|[***] | TIENDA: 
 -
 ------------------------------------------------------------------------------------------------
-- Amazon: $ 309€
+- Amazon: $ 200€
 -    
-- > Nuestra Tienda < : $ 740.000 //Actualizar
+- > Nuestra Tienda < : $ 800.000 
 
 
 -----------------------------------------------------------------------------------------------
@@ -72,16 +72,16 @@
 -PCI Express 4.0 16x
 -Salida de Video
 -3 x DisplayPort 1.4a (up to 7680x4320@60Hz)
--HDMI 2.1* (up to 7680x4320@60Hz) *Ultra High Speed HDMI Cable is required to support 8K/60FPS or 4K/120FPS
--Recomendad fuente de poder 650W
+-HDMI 2.1* (up to 7680x4320@60Hz) *Ultra High Speed HDMI Cable is required to support 
+-8K/60FPS or 4K/120FPS Recomendad fuente de poder 650W
 -Consumo de Energia 220W
 -----------------------------------------------------------------------------------------------
 -
 -  >|[***] | TIENDA: 
 -
 -----------------------------------------------------------------------------------------------
-- Amazon : 999 €
-- > Nuestra Tienda < : $ 900.000 //Actualizar
+- Amazon : 500 €
+- > Nuestra Tienda < : $ 2.000.000 /
 
 
 -----------------------------------------------------------------------------------------------
@@ -133,7 +133,7 @@
 -
 -----------------------------------------------------------------------------------------------
 - Amazon: 213€ 
-- > Nuestra Tienda < : $ 150.000 //Actualizar
+- > Nuestra Tienda < : $ 900.000 //Actualizar
 
 
 -----------------------------------------------------------------------------------------------
@@ -160,7 +160,7 @@
 -
 -----------------------------------------------------------------------------------------------
 - Amazon: 108€ 
-- > Nuestra Tienda < : $ 160.000 //Actualizar
+- > Nuestra Tienda < : $ 450.000 
 
 
 -----------------------------------------------------------------------------------------------
@@ -181,7 +181,7 @@
 -
 -----------------------------------------------------------------------------------------------
 - Amazon: 149€ 
-- > Nuestra Tienda < : $ 480.000 //Actualizar
+- > Nuestra Tienda < : $ 600.000 
 
 
 -----------------------------------------------------------------------------------------------

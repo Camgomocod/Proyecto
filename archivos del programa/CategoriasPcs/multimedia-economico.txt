@@ -125,15 +125,18 @@
 -  >|[***] | DESCRIPCIÓN:                                                           | [***]|< 
 -
 -----------------------------------------------------------------------------------------------
-Admite AMD® Ryzen ™ / Ryzen ™ de 1.a, 2.a y 3.a generación con gráficos Radeon ™ Vega y AMD® Ryzen ™ de 2.a generación con gráficos Radeon ™ / Athlon ™ con gráficos Radeon ™ Vega y procesadores de escritorio A-series / Athlon ™ X4 para Socket AM4
-Admite memoria DDR4, hasta 3200 (OC) MHz
-Turbo M.2: la ejecución en PCI-E Gen3 x4 maximiza el rendimiento de los SSD basados en NVMe
-Especificaciones MSI A320M-A PRO M2
-Socket AM4
-CPU (Max Support) RYZEN
-Chipset AMD® A320 Chipset
-DDR4 Memory 1866/ 2133/ 2400/ 2667Mhz (by JEDEC) 2667/ 2800/ 2933/ 3000/ 3066/ 3200 MHz (by A-XMP OC MODE)
-Memory Channel Dual
+Admite AMD® Ryzen ™ / Ryzen ™ de 1.a, 2.a y 3.a generación con gráficos Radeon 
+-™ Vega y AMD® Ryzen ™ de 2.a generación con gráficos Radeon ™ / Athlon 
+-™ con gráficos Radeon ™ Vega y procesadores de escritorio A-series / Athlon ™ 
+-X4 para Socket AM4 Admite memoria DDR4, hasta 3200 (OC) MHz
+-Turbo M.2: la ejecución en PCI-E Gen3 x4 maximiza el rendimiento de los SSD basados en NVMe
+-Especificaciones MSI A320M-A PRO M2
+-Socket AM4
+-CPU (Max Support) RYZEN
+-Chipset AMD® A320 Chipset
+-DDR4 Memory 1866/ 2133/ 2400/ 2667Mhz 
+-(by JEDEC) 2667/ 2800/ 2933/ 3000/ 3066/ 3200 MHz (by A-XMP OC MODE)
+-Memory Channel Dual
 -----------------------------------------------------------------------------------------------
 -
 -  >|[***] | TIENDA: 
