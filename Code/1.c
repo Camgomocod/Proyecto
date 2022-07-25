@@ -223,7 +223,7 @@ struct Node* Almacenar_Registros_Presencial(Node* head)
         printf("\n|>>>| ERROR AL ABRIR EL ARCHIVO |<<<|");
         exit(2);
     }
-    struct Node* temp = head;
+    struct Node* temp = head; 
     //! Modalidad de venta.
     char Presencial[2] = {'P'};
     while (temp != NULL)
@@ -319,7 +319,7 @@ struct Node* Imprimir_Ventas_Registradas(Node* temp)
     printf("\n");
     printf("\n>-------------------------------------- <");
     printf("\n");
-
+    
     Imprimir_Ventas_Registradas(temp->next);
 }
 
