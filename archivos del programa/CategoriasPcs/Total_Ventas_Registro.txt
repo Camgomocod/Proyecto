@@ -1,78 +1,12 @@
-|[****]| REGISTRO TOTAL DE VENTAS: |[]> 950000.0 <[]| |[****]|
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Placa Base < |<<<|
-
-|>>>| Nombre Del Producto:    > Asus B560m < |<<<|
-|>>>| Fecha De Venta:         > 2020/mayo/19 < |<<<|
-|>>>| Modalidad De Venta:     > P < |<<<|
-|>>>| Precio de la venta:     > 450000.000000 < |<<<|
-
->-------------------------------------- <
-
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Procesador < |<<<|
-
-|>>>| Nombre Del Producto:    > Ryzen 3 3200g < |<<<|
-|>>>| Fecha De Venta:         > 2022/enero/16 < |<<<|
-|>>>| Modalidad De Venta:     > P < |<<<|
-|>>>| Precio de la venta:     > 500000.000000 < |<<<|
-
->-------------------------------------- <
-|[****]| REGISTRO TOTAL DE VENTAS: |[]> 550450.0 <[]| |[****]|
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Placa Base < |<<<|
-
-|>>>| Nombre Del Producto:    > Asus B560m < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > O < |<<<|
-|>>>| Precio de la venta:     > 450.000000 < |<<<|
-
->-------------------------------------- <
-
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Procesador < |<<<|
-
-|>>>| Nombre Del Producto:    > Ryzen 3 3200g < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > P < |<<<|
-|>>>| Precio de la venta:     > 550000.000000 < |<<<|
-
->-------------------------------------- <
-|[****]| REGISTRO TOTAL DE VENTAS: |[]> 1000000.0 <[]| |[****]|
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Placa Base < |<<<|
-
-|>>>| Nombre Del Producto:    > Asus B560 < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > P < |<<<|
-|>>>| Precio de la venta:     > 450000.000000 < |<<<|
-
->-------------------------------------- <
-
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Procesador < |<<<|
-
-|>>>| Nombre Del Producto:    > Ryzen 3 3200g < |<<<|
-|>>>| Fecha De Venta:         > 2022/julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > O < |<<<|
-|>>>| Precio de la venta:     > 550000.000000 < |<<<|
-
->-------------------------------------- <
-|[****]| REGISTRO TOTAL DE VENTAS: |[]> 2860000.0 <[]| |[****]|
+|[****]| REGISTRO TOTAL DE VENTAS: |[]> 2870000.0 <[]| |[****]|
 >----------------------------------------<
 
 |>>>| Categoria Del Producto: > Tarjeta Grafica < |<<<|
 
-|>>>| Nombre Del Producto:    > ASUS GeForce GTX 1660 < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > P < |<<<|
-|>>>| Precio de la venta:     > 1300000.000000 < |<<<|
+|>>>| Nombre Del Producto:    > ASUS GeForce GTX 1660 6gb < |<<<|
+|>>>| Fecha De Venta:         > 2022/mayo/19 < |<<<|
+|>>>| Modalidad De Venta:     > O < |<<<|
+|>>>| Precio de la venta:     > 1400000.0 < |<<<|
 
 >-------------------------------------- <
 
@@ -80,10 +14,21 @@
 
 |>>>| Categoria Del Producto: > Ram < |<<<|
 
-|>>>| Nombre Del Producto:    > Corsair Vengance RGB pro 16gb < |<<<|
-|>>>| Fecha De Venta:         > 2022/julio/19 < |<<<|
+|>>>| Nombre Del Producto:    > Corsair Vengance RGB 16gb < |<<<|
+|>>>| Fecha De Venta:         > 2022/mayo/19 < |<<<|
+|>>>| Modalidad De Venta:     > P < |<<<|
+|>>>| Precio de la venta:     > 350000.0 < |<<<|
+
+>-------------------------------------- <
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: > Placa Base < |<<<|
+
+|>>>| Nombre Del Producto:    > ASUS prime b560m < |<<<|
+|>>>| Fecha De Venta:         > 2022/mayo/19 < |<<<|
 |>>>| Modalidad De Venta:     > O < |<<<|
-|>>>| Precio de la venta:     > 380000.000000 < |<<<|
+|>>>| Precio de la venta:     > 420000.0 < |<<<|
 
 >-------------------------------------- <
 
@@ -91,65 +36,31 @@
 
 |>>>| Categoria Del Producto: > Procesador < |<<<|
 
-|>>>| Nombre Del Producto:    > AMD Ryzen 7 5700g < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
+|>>>| Nombre Del Producto:    > AMD Ryzen 5 5600G < |<<<|
+|>>>| Fecha De Venta:         > 2022/mayo/19 < |<<<|
 |>>>| Modalidad De Venta:     > P < |<<<|
-|>>>| Precio de la venta:     > 900000.000000 < |<<<|
+|>>>| Precio de la venta:     > 700000.0 < |<<<|
 
 >-------------------------------------- <
-
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Fuente De Poder < |<<<|
-
-|>>>| Nombre Del Producto:    > EVGA Super Nova 650w Gold < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > O < |<<<|
-|>>>| Precio de la venta:     > 280000.000000 < |<<<|
-
->-------------------------------------- <
-|[****]| REGISTRO TOTAL DE VENTAS: |[]> 0.0 <[]| |[****]||[****]| REGISTRO TOTAL DE VENTAS: |[]> 1480000.0 <[]| |[****]|
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Tarjeta Grafica < |<<<|
-
-|>>>| Nombre Del Producto:    > AMD Radeon 6600 6gb < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > O < |<<<|
-|>>>| Precio de la venta:     > 800000.0 < |<<<|
-
->-------------------------------------- <
-
+|[****]| REGISTRO TOTAL DE VENTAS: |[]> 650000.0 <[]| |[****]|
 >----------------------------------------<
 
 |>>>| Categoria Del Producto: > Procesador < |<<<|
 
 |>>>| Nombre Del Producto:    > Intel Core i5 11400f < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > P < |<<<|
-|>>>| Precio de la venta:     > 680000.0 < |<<<|
+|>>>| Fecha De Venta:         > 2022/Julio/25 < |<<<|
+|>>>| Modalidad De Venta:     > O < |<<<|
+|>>>| Precio de la venta:     > 650000.0 < |<<<|
 
 >-------------------------------------- <
-|[****]| REGISTRO TOTAL DE VENTAS: |[]> 3576.0 <[]| |[****]|
+|[****]| REGISTRO TOTAL DE VENTAS: |[]> 440000.0 <[]| |[****]|
 >----------------------------------------<
 
-|>>>| Categoria Del Producto: > Ram < |<<<|
+|>>>| Categoria Del Producto: > Placa Base < |<<<|
 
-|>>>| Nombre Del Producto:    > Corsair vengance < |<<<|
-|>>>| Fecha De Venta:         > 2022/abril/8 < |<<<|
+|>>>| Nombre Del Producto:    > ASUS prime B560m < |<<<|
+|>>>| Fecha De Venta:         > 2022/Julio/26 < |<<<|
 |>>>| Modalidad De Venta:     > P < |<<<|
-|>>>| Precio de la venta:     > 123.0 < |<<<|
+|>>>| Precio de la venta:     > 440000.0 < |<<<|
 
 >-------------------------------------- <
-
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Ssd < |<<<|
-
-|>>>| Nombre Del Producto:    > dir < |<<<|
-|>>>| Fecha De Venta:         > 2022/marzo/aaaaaaaaaadir < |<<<|
-|>>>| Modalidad De Venta:     > P < |<<<|
-|>>>| Precio de la venta:     > 3453.0 < |<<<|
-
->-------------------------------------- <
-|[****]| REGISTRO TOTAL DE VENTAS: |[]> 0.0 <[]| |[****]|

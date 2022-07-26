@@ -1,35 +1,33 @@
-
 |[****]| NUEVO REGISTRO: : |[]>
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Ram < |<<<|
-
-|>>>| Nombre Del Producto:    > Corsair Vengance RGB pro 16gb < |<<<|
-|>>>| Fecha De Venta:         > 2022/julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > O < |<<<|
-|>>>| Precio de la venta:     > 380000.000000 < |<<<|
-
->-------------------------------------- <
-
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Fuente De Poder < |<<<|
-
-|>>>| Nombre Del Producto:    > EVGA Super Nova 650w Gold < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > O < |<<<|
-|>>>| Precio de la venta:     > 280000.000000 < |<<<|
-
->-------------------------------------- <
-|[****]| NUEVO REGISTRO: : |[]>|[****]| NUEVO REGISTRO: : |[]>
 >----------------------------------------<
 
 |>>>| Categoria Del Producto: > Tarjeta Grafica < |<<<|
 
-|>>>| Nombre Del Producto:    > AMD Radeon 6600 6gb < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
+|>>>| Nombre Del Producto:    > ASUS GeForce GTX 1660 6gb < |<<<|
+|>>>| Fecha De Venta:         > 2022/mayo/19 < |<<<|
 |>>>| Modalidad De Venta:     > O < |<<<|
-|>>>| Precio de la venta:     > 800000.0 < |<<<|
+|>>>| Precio de la venta:     > 1400000.0 < |<<<|
 
 >-------------------------------------- <
-|[****]| NUEVO REGISTRO: : |[]>|[****]| NUEVO REGISTRO: : |[]>
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: > Placa Base < |<<<|
+
+|>>>| Nombre Del Producto:    > ASUS prime b560m < |<<<|
+|>>>| Fecha De Venta:         > 2022/mayo/19 < |<<<|
+|>>>| Modalidad De Venta:     > O < |<<<|
+|>>>| Precio de la venta:     > 420000.0 < |<<<|
+
+>-------------------------------------- <
+|[****]| NUEVO REGISTRO: : |[]>
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: > Procesador < |<<<|
+
+|>>>| Nombre Del Producto:    > Intel Core i5 11400f < |<<<|
+|>>>| Fecha De Venta:         > 2022/Julio/25 < |<<<|
+|>>>| Modalidad De Venta:     > O < |<<<|
+|>>>| Precio de la venta:     > 650000.0 < |<<<|
+
+>-------------------------------------- <

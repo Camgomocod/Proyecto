@@ -25,7 +25,7 @@ char *Modalidad_Venta, float Precio_De_Venta, char *Num_Factura)
     strcpy(temp1->Categoria_Producto, Categoria_Producto);
     strcpy(temp1->Nombre_Del_Producto, Nombre_Del_Producto);
     strcpy(temp1->Fecha_De_Venta, Fecha_De_Venta);
-    strcpy(temp1->Modalidad_Venta, Modalidad_Venta);
+    strcpy(temp1->Modalidad_Venta, Modalidad_Venta); 
     strcpy(temp1->Num_Factura, Num_Factura);
     temp1->Precio_De_Venta = Precio_De_Venta;
     temp1->next = NULL;
@@ -208,7 +208,10 @@ struct Node* Almacenar_Registros_Online(Node* head)
     struct Node* temp = head; 
     //! Modalidad de venta
     char Online[2] = {'O'};
-    fprintf(File_Open,"|[****]| NUEVO REGISTRO: : |[]>");
+    if (strcmp(head->Modalidad_Venta,Online) == 0)
+    {
+        fprintf(File_Open,"|[****]| NUEVO REGISTRO: : |[]>");
+    }
     //! Guardamos el registro en: > Online_Register.txt < si cumple con la condicion de ser igual a modalidad Online.
     while (temp != NULL)
     {
@@ -245,7 +248,10 @@ struct Node* Almacenar_Registros_Presencial(Node* head)
     struct Node* temp = head; 
     //! Modalidad de venta.
     char Presencial[2] = {'P'};
-    fprintf(File_Open,"|[****]| NUEVO REGISTRO: : |[]>");
+    if(strcmp(head->Modalidad_Venta,Presencial) == 0){
+        fprintf(File_Open,"|[****]| NUEVO REGISTRO: : |[]>");
+    }
+    
     while (temp != NULL)
     {
         if (strcmp(temp->Modalidad_Venta,Presencial) == 0)
@@ -296,9 +302,11 @@ struct Node* Almacenar_Total_Ventas(Node* head)
     float Suma_Pagos;
     Suma_Pagos = Total_Ventas_Realizadas(first);
     struct Node* temp = head;
-
-    fprintf(File_Open,"|[****]| REGISTRO TOTAL DE VENTAS: |[]> %.1f <[]| |[****]|",Suma_Pagos);
-
+    if (head->Modalidad_Venta != NULL)
+    {
+        fprintf(File_Open,"|[****]| REGISTRO TOTAL DE VENTAS: |[]> %.1f <[]| |[****]|",Suma_Pagos);
+    }
+    
     while (temp != NULL)
     {
         fprintf(File_Open,"\n>----------------------------------------<");
@@ -394,29 +402,29 @@ void Register_Informacion_Ventas(void)
     char Num_Factura[10];
     int Num_Nodos;
 
-    printf("\n[[**]]>DIgite cuantas ventas desea registrar:       <[[**]] ");
+    printf("\n[[**]]>DIgite cuantas ventas desea registrar:       <[[**]]");
     scanf("%d",&Num_Nodos);
 
     for (int i = 0; i < Num_Nodos; i++)
     {
         do
         {
-            printf("|[>>>]|Ingrese la categoria del producto\n[[**]]> ");
+            printf("|[>>>]|Ingrese la categoria del producto\n[[**]]>");
             getchar();
             gets(Categoria_Producto);
 
         } while (!Validar_Categorias(Categoria_Producto));
 
-        printf("|[>>>]|Ingrese el nombre del producto\n[[**]]> ");
+        printf("|[>>>]|Ingrese el nombre del producto\n[[**]]>");
         gets(Nombre_Del_Producto);
         printf("\n");
         printf("|[>>>]|Ingrese la fecha de venta:");
         printf("\n");
-        printf("|[>>>]|AÑO\t[[**]]> ");
+        printf("|[>>>]|AÑO\t[[**]] ");
         scanf("%s",Ano);
-        printf("|[>>>]|MES\t[[**]]> ");
+        printf("|[>>>]|MES\t[[**]]>");
         scanf("%s",Mes);
-        printf("|[>>>]|DIA\t[[**]]> ");
+        printf("|[>>>]|DIA\t[[**]]>");
         scanf("%s",Dia);
         concatenar(Fecha_De_Venta, Ano, Mes, Dia);
         printf("\n");
@@ -429,7 +437,7 @@ void Register_Informacion_Ventas(void)
         printf("|[>>>]| Ingrese el precio de venta\t[[**]]>");
         scanf("%f",&Precio_De_Venta);
         printf("\n");
-        printf("|[>>>]| Ingrese el numero de factura\t[[**]]> ");
+        printf("|[>>>]| Ingrese el numero de factura\t[[**]]>");
         scanf("%s",Num_Factura);
 
         //! Guardar los cambios realizados guardandolos en el puntero de nodo > 'First' < 

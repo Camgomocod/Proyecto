@@ -1,56 +1,33 @@
 |[****]| NUEVO REGISTRO: : |[]>
 >----------------------------------------<
 
-|>>>| Categoria Del Producto: > Tarjeta Grafica < |<<<|
-
-|>>>| Nombre Del Producto:    > ASUS GeForce GTX 1660 < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > P < |<<<|
-|>>>| Precio de la venta:     > 1300000.000000 < |<<<|
-
->-------------------------------------- <
-
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Procesador < |<<<|
-
-|>>>| Nombre Del Producto:    > AMD Ryzen 7 5700g < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > P < |<<<|
-|>>>| Precio de la venta:     > 900000.000000 < |<<<|
-
->-------------------------------------- <
-|[****]| NUEVO REGISTRO: : |[]>|[****]| NUEVO REGISTRO: : |[]>
->----------------------------------------<
-
-|>>>| Categoria Del Producto: > Procesador < |<<<|
-
-|>>>| Nombre Del Producto:    > Intel Core i5 11400f < |<<<|
-|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
-|>>>| Modalidad De Venta:     > P <  |<<<|
-|>>>| Precio de la venta:     > 680000.0 < |<<<|
-
->-------------------------------------- <
-|[****]| NUEVO REGISTRO: : |[]>
->----------------------------------------<
-
 |>>>| Categoria Del Producto: > Ram < |<<<|
 
-|>>>| Nombre Del Producto:    > Corsair vengance < |<<<|
-|>>>| Fecha De Venta:         > 2022/abril/8 < |<<<|
+|>>>| Nombre Del Producto:    > Corsair Vengance RGB 16gb < |<<<|
+|>>>| Fecha De Venta:         > 2022/mayo/19 < |<<<|
 |>>>| Modalidad De Venta:     > P <  |<<<|
-|>>>| Precio de la venta:     > 123.0 < |<<<|
+|>>>| Precio de la venta:     > 350000.0 < |<<<|
 
 >-------------------------------------- <
 
 >----------------------------------------<
 
-|>>>| Categoria Del Producto: > Ssd < |<<<|
+|>>>| Categoria Del Producto: > Procesador < |<<<|
 
-|>>>| Nombre Del Producto:    > dir < |<<<|
-|>>>| Fecha De Venta:         > 2022/marzo/aaaaaaaaaadir < |<<<|
+|>>>| Nombre Del Producto:    > AMD Ryzen 5 5600G < |<<<|
+|>>>| Fecha De Venta:         > 2022/mayo/19 < |<<<|
 |>>>| Modalidad De Venta:     > P <  |<<<|
-|>>>| Precio de la venta:     > 3453.0 < |<<<|
+|>>>| Precio de la venta:     > 700000.0 < |<<<|
 
 >-------------------------------------- <
 |[****]| NUEVO REGISTRO: : |[]>
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: > Placa Base < |<<<|
+
+|>>>| Nombre Del Producto:    > ASUS prime B560m < |<<<|
+|>>>| Fecha De Venta:         > 2022/Julio/26 < |<<<|
+|>>>| Modalidad De Venta:     > P <  |<<<|
+|>>>| Precio de la venta:     > 440000.0 < |<<<|
+
+>-------------------------------------- <
