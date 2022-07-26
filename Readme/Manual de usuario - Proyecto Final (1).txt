@@ -1,0 +1,84 @@
+                      -------------------- | Manual de Usuario | --------------------
+
+                       Este texto tiene el objetivo de explicar el uso del programa,
+                               explicando cada opcion que posee este.
+
+                     ---------- ---------- ---------- ---------- ---------- ----------
+
+*Menu Principal*
+El menu principal despliega 9 opciones, a continuacion se presenta la utilidad de cada una.
+
+1. Ingresar informacion de la venta:
+Esta opcion permite ingresar informacion para realizar una venta.
+
+	1.1. Al seleccionar esta opcion el programa muestra por pantalla un mensaje donde
+	solicita el numero de ventas a registar.
+
+	1.2 Despues de ingresar el numero de ventas a registrar, el programa solicitara la categoria del producto
+	para venta, las cuales son:
+		|Placa base|
+		|Ram|
+		|Fuente De Poder|
+		|Procesador|
+		|Ssd|
+		|Targeta Grafica|
+		|Disco Duro|
+
+	1.3. Luego de ingresar la categoria, el programa solicitara el nombre del producto.
+
+	1.4. Despues de ingresar el nombre del producto, el programa solicitara la fecha de la venta:
+	Año, Mes y Dia.
+
+	1.5 Siguiente al ingresar la fecha, el programa solicitara la modalidad de venta, esta bien puede ser:
+		|Presencial| = P
+		|Online| = O
+
+	1.6. Luego el programa solicitara el precio del producto.
+
+	1.7. Por ultimo el programa solicitara el numero de factura, este puede ser: solo numeros, letras
+	o una combinacion de los dos.
+
+2. Filtrar facturas por modalidad:
+En esta opcion el programa realiza una division de las ventas realizar, diviendolas por modalidas, es decir, presencial o online.
+
+	2.1. El programa solicitara la modalidad para filtrar las ventas. Teniendo las opciones:
+		|Presencial| = P
+		|Online| = O
+
+	2.2. Luego el programa mostra las facturas de las ventas segun la modalidad que se halla seleccionado
+
+3. Modificar valor de venta:
+En esta opcion, el programa permitira cambiar los valor de los productos de la venta.
+
+	3.1. Al seleccionar esta opcion, el programa solicitara el numero de factura de la venta.
+
+	3.2. Luego de ingresar el numero de la factura, el programa solicitara el nuevo valor.
+
+4. Recomendador de Pcs:
+Esta opcion proporciona computadores segun las nesesidades del comprador.
+
+	4.1. Al seleccionar esta opcion, el programa muestra un pequeño menu, donde tiene dos opciones:
+		|PC Gaming|
+		|PC Multimedia|
+
+	4.2. Luego de seleccionar una de las dos opciones, se desplega el siguiete menu:
+		|Gama Economica|
+		|Gama Media|
+		|Gama Alta|
+
+	4.3. Cuando se elija la gama del computador, el programa desplegara informacion de los compotentes del 	computador
+
+5. Imprimir las ventas ingresadas:
+En esta opcion el programa desplega la informacion de las ventas ingresadas, en este caso se muestran las ventas de ambas modalidades, online y presenciales.
+
+6. Imprimir todos los registros de venta:
+En esta opcion el programa muestar todos los registros registros de ventas ingresados a traves del tiempo.
+
+7.Imprimir registros modalidad Online:
+Esta opcion permite ver los registros de ventas realizados en la modalidad ONLINE.
+
+8.Imprimir registros modalidad Presencial:
+Esta opcion permite ver los registros de ventas realizados en la modalidad PRESENCIAL.
+
+9. Salir:
+Finaliza los procesos del programa y se sale de el.
