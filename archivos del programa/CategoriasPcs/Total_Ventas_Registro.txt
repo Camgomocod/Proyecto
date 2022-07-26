@@ -64,3 +64,15 @@
 |>>>| Precio de la venta:     > 440000.0 < |<<<|
 
 >-------------------------------------- <
+|[****]| REGISTRO TOTAL DE VENTAS: |[]> 440000.0 <[]| |[****]|
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: > Placa Base < |<<<|
+
+|>>>| Nombre Del Producto:    > ASUS b560m < |<<<|
+|>>>| Fecha De Venta:         > 2022/Julio/19 < |<<<|
+|>>>| Modalidad De Venta:     > O < |<<<|
+|>>>| Precio de la venta:     > 440000.0 < |<<<|
+|>>>| Numero de Factura:      > ASfTr2 < |<<<|
+
+>-------------------------------------- <

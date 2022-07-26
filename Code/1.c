@@ -93,22 +93,15 @@ int Validar_Modalidad(char *Modalidad_Venta)
  * 5. Procesador
  * 6. Disco Duro
  */
-char Validar_Categorias(int Digitar_Categoria)
-{
-    char Placa_Base[20] = {"Placa Base"};
-    char Ram[10] = {"Ram"};
-    char Fuente_De_Poder[20] = {"Fuente De Poder"};
-    char Procesador[15] = {"Procesador"};
-    char Ssd[10] = {"Ssd"};
-    char Tarjeta_Grafica[20] = {"Tarjeta Grafica"};
-    char Disco_Duro[20] = {"Disco Duro"};
 
-    //! Si al comparar la cadena que le pasamos al la funcion coincide con alguna retorna true.
+int Validar_Categorias(int Digitar_Categoria)
+{
     if(Digitar_Categoria >=1 && Digitar_Categoria <=7)
     {
-        return true;
+        return 1;
     }
-    return false;
+
+    return 0;
 }
 
 /**
@@ -396,14 +389,14 @@ void Register_Informacion_Ventas(void)
     for (int i = 0; i < Num_Nodos; i++)
     {
         do{    
-            printf("\n|[>>>]| Digite la categoria del producto\n[[**]]>");
+            printf("\n|[>>>]| Digite la categoria del producto  [[**]]>");
             printf("\n|[>>>]| Categoria 1: Placa Base");
             printf("\n|[>>>]| Categoria 2: Ram");
             printf("\n|[>>>]| Categoria 3: Fuente De Poder");
             printf("\n|[>>>]| Categoria 4: Procesador");
             printf("\n|[>>>]| Categoria 5: Ssd");
             printf("\n|[>>>]| Categoria 6: Tarjeta grafica");
-            printf("\n|[>>>]| Categoria 7: Disco Duro\n");
+            printf("\n|[>>>]| Categoria 7: Disco Duro \n[[**]]>");
             scanf("%d",&Digitar_Categoria);
         }while(!Validar_Categorias(Digitar_Categoria));
         
