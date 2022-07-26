@@ -93,7 +93,7 @@ int Validar_Modalidad(char *Modalidad_Venta)
  * 5. Procesador
  * 6. Disco Duro
  */
-bool Validar_Categorias(char *Categoria_Producto)
+char Validar_Categorias(int Digitar_Categoria)
 {
     char Placa_Base[20] = {"Placa Base"};
     char Ram[10] = {"Ram"};
@@ -104,29 +104,10 @@ bool Validar_Categorias(char *Categoria_Producto)
     char Disco_Duro[20] = {"Disco Duro"};
 
     //! Si al comparar la cadena que le pasamos al la funcion coincide con alguna retorna true.
-    if(strcmp(Categoria_Producto,Placa_Base) == 0)
-    {
-        return true;
-    }else if(strcmp(Categoria_Producto,Ram) == 0)
-    {
-        return true;  
-    }else if(strcmp(Categoria_Producto,Fuente_De_Poder) == 0)
-    { 
-        return true; 
-    }else if(strcmp(Categoria_Producto,Procesador) == 0)
-    {
-         return true;
-    }else if(strcmp(Categoria_Producto,Ssd) == 0)
-    {
-        return true;
-    }else if(strcmp(Categoria_Producto,Tarjeta_Grafica) == 0) 
-    {
-        return true;
-    }else if(strcmp(Categoria_Producto,Disco_Duro) == 0)
+    if(Digitar_Categoria >=1 && Digitar_Categoria <=7)
     {
         return true;
     }
-    //! Si al comparar la cadena que le pasamos a la funcion *no* coincide con ninguna retorna false.
     return false;
 }
 
@@ -161,13 +142,16 @@ struct Node* Filtrar_Modalidad(Node* head)
             printf("\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
             printf("\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
             printf("\n|>>>| Precio de la venta:     > %.1f < |<<<|",temp->Precio_De_Venta);
+            printf("\n|>>>| Numero de Facturaq:     > %s < |<<<|",temp->Num_Factura);
             printf("\n");
             printf("\n>----------------------------------------<");
             printf("\n");
 
-            //! Para pasar a los nodos siguientes
-            temp = temp->next;
+           
+            
         }
+         //! Para pasar a los nodos siguientes
+        temp = temp->next;
     }
 }
 
@@ -225,6 +209,7 @@ struct Node* Almacenar_Registros_Online(Node* head)
             fprintf(File_Open,"\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
             fprintf(File_Open,"\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
             fprintf(File_Open,"\n|>>>| Precio de la venta:     > %.1f < |<<<|",temp->Precio_De_Venta);
+            fprintf(File_Open,"\n|>>>| Numero de Factura:      > %s < |<<<|",temp->Num_Factura);
             fprintf(File_Open,"\n");
             fprintf(File_Open,"\n>-------------------------------------- <");
             fprintf(File_Open,"\n");
@@ -264,6 +249,7 @@ struct Node* Almacenar_Registros_Presencial(Node* head)
             fprintf(File_Open,"\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
             fprintf(File_Open,"\n|>>>| Modalidad De Venta:     > %s <  |<<<|",temp->Modalidad_Venta);
             fprintf(File_Open,"\n|>>>| Precio de la venta:     > %.1f < |<<<|",temp->Precio_De_Venta);
+            fprintf(File_Open,"\n|>>>| Numero de Factura:      > %s < |<<<|",temp->Num_Factura);
             fprintf(File_Open,"\n");
             fprintf(File_Open,"\n>-------------------------------------- <");
             fprintf(File_Open,"\n");
@@ -317,6 +303,7 @@ struct Node* Almacenar_Total_Ventas(Node* head)
         fprintf(File_Open,"\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
         fprintf(File_Open,"\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
         fprintf(File_Open,"\n|>>>| Precio de la venta:     > %.1f < |<<<|",temp->Precio_De_Venta);
+        fprintf(File_Open,"\n|>>>| Numero de Factura:      > %s < |<<<|",temp->Num_Factura);
         fprintf(File_Open,"\n");
         fprintf(File_Open,"\n>-------------------------------------- <");
         fprintf(File_Open,"\n");
@@ -333,7 +320,7 @@ struct Node* Imprimir_Ventas_Registradas(Node* temp)
     //! Si temp es = NULL quiere decir que llego al final de la lista
     if(temp == NULL)
     {
-        return;
+        return 0;
     }
 
     printf("\n>----------------------------------------<");
@@ -344,6 +331,7 @@ struct Node* Imprimir_Ventas_Registradas(Node* temp)
     printf("\n|>>>| Fecha De Venta:         > %s < |<<<|",temp->Fecha_De_Venta);
     printf("\n|>>>| Modalidad De Venta:     > %s < |<<<|",temp->Modalidad_Venta);
     printf("\n|>>>| Precio de la venta:     > %.1f < |<<<|",temp->Precio_De_Venta);
+    printf("\n|>>>| Numero de Facturaq:     > %s < |<<<|",temp->Num_Factura);
     printf("\n");
     printf("\n>-------------------------------------- <");
     printf("\n");
@@ -400,27 +388,56 @@ void Register_Informacion_Ventas(void)
     char Modalidad_De_Venta[2];
     float Precio_De_Venta;
     char Num_Factura[10];
-    int Num_Nodos;
+    int Num_Nodos, Digitar_Categoria;
 
     printf("\n[[**]]>DIgite cuantas ventas desea registrar:       <[[**]]");
     scanf("%d",&Num_Nodos);
 
     for (int i = 0; i < Num_Nodos; i++)
     {
-        do
-        {
-            printf("|[>>>]|Ingrese la categoria del producto\n[[**]]>");
-            getchar();
-            gets(Categoria_Producto);
-
-        } while (!Validar_Categorias(Categoria_Producto));
+        do{    
+            printf("\n|[>>>]| Digite la categoria del producto\n[[**]]>");
+            printf("\n|[>>>]| Categoria 1: Placa Base");
+            printf("\n|[>>>]| Categoria 2: Ram");
+            printf("\n|[>>>]| Categoria 3: Fuente De Poder");
+            printf("\n|[>>>]| Categoria 4: Procesador");
+            printf("\n|[>>>]| Categoria 5: Ssd");
+            printf("\n|[>>>]| Categoria 6: Tarjeta grafica");
+            printf("\n|[>>>]| Categoria 7: Disco Duro\n");
+            scanf("%d",&Digitar_Categoria);
+        }while(!Validar_Categorias(Digitar_Categoria));
+        
+        switch(Digitar_Categoria){
+            case 1:
+                strcpy(Categoria_Producto, "Placa Base");
+                break;
+            case 2:
+                strcpy(Categoria_Producto, "Ram");
+                break;
+            case 3:
+                strcpy(Categoria_Producto, "Fuente De Poder");
+                break;
+            case 4:
+                strcpy(Categoria_Producto, "Procesador");
+                break;
+            case 5:
+                strcpy(Categoria_Producto, "Ssd");
+                break;
+            case 6:
+                strcpy(Categoria_Producto, "Tarjeta Grafica");
+                break;
+            case 7:
+                strcpy(Categoria_Producto, "Disco Duro");
+                break;
+        }
 
         printf("|[>>>]|Ingrese el nombre del producto\n[[**]]>");
+        getchar();
         gets(Nombre_Del_Producto);
         printf("\n");
         printf("|[>>>]|Ingrese la fecha de venta:");
         printf("\n");
-        printf("|[>>>]|AÑO\t[[**]] ");
+        printf("|[>>>]|ANO\t[[**]] ");
         scanf("%s",Ano);
         printf("|[>>>]|MES\t[[**]]>");
         scanf("%s",Mes);
